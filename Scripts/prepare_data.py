@@ -7,8 +7,8 @@ from openpyxl import Workbook
 
 ROOT = Path(__file__).resolve().parents[1]
 original = (ROOT / 'Source/day.csv').read_bytes()
-# The downloaded handoff serialized its line endings as literal backslash text.
-text = original.decode('utf-8-sig').replace('\\r\\n', '\n')
+# The source uses standard CRLF record endings; csv.DictReader handles them.
+text = original.decode('utf-8-sig')
 raw = list(csv.DictReader(io.StringIO(text)))
 assert len(raw) == 731
 assert all(all(v != '' for v in row.values()) for row in raw)
@@ -46,7 +46,7 @@ audit=dict(source_sha256=hashlib.sha256(original).hexdigest(), rows=731,
     zero_humidity=[{**r,'Date':str(r['Date']),'Month':str(r['Month'])} for r in rows if r['HumidityPct']==0],
     groups={f'{w} | {d}':summary([r for r in rows if r['Weather']==w and r['DayType']==d]) for w in weather.values() for d in ['Working day','Weekend / holiday']},
     monthly={str(m):summary([r for r in rows if r['Month']==m]) for m in sorted(set(r['Month'] for r in rows))},
-    notes=['Literal escaped line endings decoded; original handoff bytes preserved.',
+    notes=['Standard CRLF source records parsed as CSV; original handoff bytes preserved.',
         'Daily Readme conversion: temp * 41 degrees Celsius; hum * 100 percent.',
         'All daily records retained. No imputation or outlier deletion.',
         'Weather groups ordered by source codes 1, 2, 3. Code 4 has no daily observations.',

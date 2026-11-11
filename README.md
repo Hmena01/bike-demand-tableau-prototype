@@ -37,7 +37,7 @@ The calendar stays fixed under filtering. Every observed month remains visible a
 Source: Fanaee-T, H. (2013), *Bike Sharing*, UCI Machine Learning Repository, [doi:10.24432/C5W894](https://doi.org/10.24432/C5W894). Daily Capital Bikeshare records for Washington, DC, January 1, 2011–December 31, 2012. Definitions follow the bundled daily-file Readme.
 
 - One row is one day. All **731 records** remain, with **731 unique consecutive dates**, no missing fields, and **3,292,679 rentals**. No sampling, imputation, aggregation of extract rows, or outlier deletion was performed.
-- `Source/day.csv` and `Source/Readme.txt` preserve the supplied bytes. Literal escaped `\r\n` sequences in the handoff were decoded into actual record boundaries.
+- `Source/day.csv` and `Source/Readme.txt` preserve the supplied bytes. The source uses standard CRLF line endings, which are handled by the CSV reader.
 - `Data/bike_demand.csv` and `Data/bike_demand.xlsx` are typed preparation outputs. The packaged workbook embeds a native **Hyper extract**. Every extracted row and all 14 source fields were compared with the prepared CSV.
 - Temperature follows the daily Readme: `temp × 41` °C. Humidity is `hum × 100`, formatted with a literal percent suffix so it is not scaled twice.
 - March 10, 2011 retains the recorded **0% humidity** and **623 rentals**. Its tooltip identifies the source anomaly, and a small visible minimum symbol retains the observation.
