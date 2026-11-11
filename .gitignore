@@ -7,3 +7,4 @@ __pycache__/
 Scripts/*
 !Scripts/prepare_data.py
 Source/*proposal*
+*.twbr
