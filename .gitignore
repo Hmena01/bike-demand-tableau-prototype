@@ -1,0 +1,9 @@
+Archive/
+Verification/
+AGENTS.md
+.DS_Store
+__pycache__/
+*.log
+Scripts/*
+!Scripts/prepare_data.py
+Source/*proposal*

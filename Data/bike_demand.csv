@@ -1,0 +1,732 @@
+Date,Month,Year,MonthNumber,TemperatureC,HumidityPct,DailyRentals,Weather,WeatherCode,DayType,HumidityNote,RecordID,CasualRentals,RegisteredRentals
+2011-01-01,2011-01-01,2011,1,14.110847,80.58330000000001,985,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,1,331,654
+2011-01-02,2011-01-01,2011,1,14.902598000000001,69.6087,801,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,2,131,670
+2011-01-03,2011-01-01,2011,1,8.050924,43.7273,1349,Clear / partly cloudy,1,Working day,Recorded daily humidity,3,120,1229
+2011-01-04,2011-01-01,2011,1,8.200000000000001,59.0435,1562,Clear / partly cloudy,1,Working day,Recorded daily humidity,4,108,1454
+2011-01-05,2011-01-01,2011,1,9.305237,43.695699999999995,1600,Clear / partly cloudy,1,Working day,Recorded daily humidity,5,82,1518
+2011-01-06,2011-01-01,2011,1,8.378268,51.8261,1606,Clear / partly cloudy,1,Working day,Recorded daily humidity,6,88,1518
+2011-01-07,2011-01-01,2011,1,8.057402,49.8696,1510,Mist / cloudy,2,Working day,Recorded daily humidity,7,148,1362
+2011-01-08,2011-01-01,2011,1,6.765000000000001,53.5833,959,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,8,68,891
+2011-01-09,2011-01-01,2011,1,5.671653,43.416700000000006,822,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,9,54,768
+2011-01-10,2011-01-01,2011,1,6.184153,48.2917,1321,Clear / partly cloudy,1,Working day,Recorded daily humidity,10,41,1280
+2011-01-11,2011-01-01,2011,1,6.9327309999999995,68.6364,1263,Mist / cloudy,2,Working day,Recorded daily humidity,11,43,1220
+2011-01-12,2011-01-01,2011,1,7.0818069999999995,59.954499999999996,1162,Clear / partly cloudy,1,Working day,Recorded daily humidity,12,25,1137
+2011-01-13,2011-01-01,2011,1,6.765000000000001,47.0417,1406,Clear / partly cloudy,1,Working day,Recorded daily humidity,13,38,1368
+2011-01-14,2011-01-01,2011,1,6.59567,53.7826,1421,Clear / partly cloudy,1,Working day,Recorded daily humidity,14,54,1367
+2011-01-15,2011-01-01,2011,1,9.566653,49.875,1248,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,15,222,1026
+2011-01-16,2011-01-01,2011,1,9.498347,48.375,1204,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,16,251,953
+2011-01-17,2011-01-01,2011,1,7.209153,53.75,1000,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,17,117,883
+2011-01-18,2011-01-01,2011,1,8.883347,86.16669999999999,683,Mist / cloudy,2,Working day,Recorded daily humidity,18,9,674
+2011-01-19,2011-01-01,2011,1,11.979134,74.1739,1650,Mist / cloudy,2,Working day,Recorded daily humidity,19,78,1572
+2011-01-20,2011-01-01,2011,1,10.728347,53.833299999999994,1927,Mist / cloudy,2,Working day,Recorded daily humidity,20,83,1844
+2011-01-21,2011-01-01,2011,1,7.2775,45.7083,1543,Clear / partly cloudy,1,Working day,Recorded daily humidity,21,75,1468
+2011-01-22,2011-01-01,2011,1,2.4243464,40.0,981,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,22,93,888
+2011-01-23,2011-01-01,2011,1,3.9573897000000002,43.6522,986,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,23,150,836
+2011-01-24,2011-01-01,2011,1,3.9930433,49.173899999999996,1416,Clear / partly cloudy,1,Working day,Recorded daily humidity,24,86,1330
+2011-01-25,2011-01-01,2011,1,9.162598000000001,61.695699999999995,1985,Mist / cloudy,2,Working day,Recorded daily humidity,25,186,1799
+2011-01-26,2011-01-01,2011,1,8.9175,86.25,506,Light rain / snow,3,Working day,Recorded daily humidity,26,34,472
+2011-01-27,2011-01-01,2011,1,7.995,68.75,431,Clear / partly cloudy,1,Working day,Recorded daily humidity,27,15,416
+2011-01-28,2011-01-01,2011,1,8.342597999999999,79.30430000000001,1167,Mist / cloudy,2,Working day,Recorded daily humidity,28,38,1129
+2011-01-29,2011-01-01,2011,1,8.057402,65.17389999999999,1098,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,29,123,975
+2011-01-30,2011-01-01,2011,1,8.877402,72.2174,1096,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,30,140,956
+2011-01-31,2011-01-01,2011,1,7.414153,60.375,1501,Mist / cloudy,2,Working day,Recorded daily humidity,31,42,1459
+2011-02-01,2011-02-01,2011,2,7.8791340000000005,82.9565,1360,Mist / cloudy,2,Working day,Recorded daily humidity,32,47,1313
+2011-02-02,2011-02-01,2011,2,10.66,77.5417,1526,Mist / cloudy,2,Working day,Recorded daily humidity,33,72,1454
+2011-02-03,2011-02-01,2011,2,7.665237,43.7826,1550,Clear / partly cloudy,1,Working day,Recorded daily humidity,34,61,1489
+2011-02-04,2011-02-01,2011,2,8.663464,58.521699999999996,1708,Mist / cloudy,2,Working day,Recorded daily humidity,35,88,1620
+2011-02-05,2011-02-01,2011,2,9.566653,92.91669999999999,1005,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,36,100,905
+2011-02-06,2011-02-01,2011,2,11.719153,56.833299999999994,1623,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,37,354,1269
+2011-02-07,2011-02-01,2011,2,11.138347,73.83330000000001,1712,Clear / partly cloudy,1,Working day,Recorded daily humidity,38,120,1592
+2011-02-08,2011-02-01,2011,2,9.054153,53.7917,1530,Clear / partly cloudy,1,Working day,Recorded daily humidity,39,64,1466
+2011-02-09,2011-02-01,2011,2,5.526102999999999,49.4783,1605,Mist / cloudy,2,Working day,Recorded daily humidity,40,53,1552
+2011-02-10,2011-02-01,2011,2,5.918268,43.7391,1538,Clear / partly cloudy,1,Working day,Recorded daily humidity,41,47,1491
+2011-02-11,2011-02-01,2011,2,7.752731000000001,50.6364,1746,Clear / partly cloudy,1,Working day,Recorded daily humidity,42,149,1597
+2011-02-12,2011-02-01,2011,2,9.1225,54.4167,1472,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,43,288,1184
+2011-02-13,2011-02-01,2011,2,12.977402000000001,45.7391,1589,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,44,397,1192
+2011-02-14,2011-02-01,2011,2,17.015,37.583299999999994,1913,Clear / partly cloudy,1,Working day,Recorded daily humidity,45,208,1705
+2011-02-15,2011-02-01,2011,2,10.909567000000001,31.434800000000003,1815,Clear / partly cloudy,1,Working day,Recorded daily humidity,46,140,1675
+2011-02-16,2011-02-01,2011,2,13.048701000000001,42.3478,2115,Clear / partly cloudy,1,Working day,Recorded daily humidity,47,218,1897
+2011-02-17,2011-02-01,2011,2,17.869153,50.5,2475,Clear / partly cloudy,1,Working day,Recorded daily humidity,48,259,2216
+2011-02-18,2011-02-01,2011,2,21.388347,51.6667,2927,Clear / partly cloudy,1,Working day,Recorded daily humidity,49,579,2348
+2011-02-19,2011-02-01,2011,2,16.365847,18.7917,1635,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,50,532,1103
+2011-02-20,2011-02-01,2011,2,11.693897,40.7826,1812,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,51,639,1173
+2011-02-21,2011-02-01,2011,2,12.436653000000002,60.5,1107,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,52,195,912
+2011-02-22,2011-02-01,2011,2,7.471102,57.7778,1450,Clear / partly cloudy,1,Working day,Recorded daily humidity,53,74,1376
+2011-02-23,2011-02-01,2011,2,9.091299,42.3043,1917,Clear / partly cloudy,1,Working day,Recorded daily humidity,54,139,1778
+2011-02-24,2011-02-01,2011,2,12.121732000000002,69.7391,1807,Mist / cloudy,2,Working day,Recorded daily humidity,55,100,1707
+2011-02-25,2011-02-01,2011,2,14.938268,71.2174,1461,Mist / cloudy,2,Working day,Recorded daily humidity,56,120,1341
+2011-02-26,2011-02-01,2011,2,11.5825,53.7917,1969,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,57,424,1545
+2011-02-27,2011-02-01,2011,2,14.082598,68.0,2402,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,58,694,1708
+2011-02-28,2011-02-01,2011,2,16.698193,87.63640000000001,1446,Mist / cloudy,2,Working day,Recorded daily humidity,59,81,1365
+2011-03-01,2011-03-01,2011,3,10.933347,53.5,1851,Clear / partly cloudy,1,Working day,Recorded daily humidity,60,137,1714
+2011-03-02,2011-03-01,2011,3,13.735000000000001,44.9583,2134,Clear / partly cloudy,1,Working day,Recorded daily humidity,61,231,1903
+2011-03-03,2011-03-01,2011,3,8.131653,31.833299999999998,1685,Clear / partly cloudy,1,Working day,Recorded daily humidity,62,123,1562
+2011-03-04,2011-03-01,2011,3,10.728347,61.0417,1944,Mist / cloudy,2,Working day,Recorded daily humidity,63,214,1730
+2011-03-05,2011-03-01,2011,3,15.750846999999998,78.91669999999999,2077,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,64,640,1437
+2011-03-06,2011-03-01,2011,3,15.437402,94.8261,605,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,65,114,491
+2011-03-07,2011-03-01,2011,3,10.731299,55.1304,1872,Clear / partly cloudy,1,Working day,Recorded daily humidity,66,244,1628
+2011-03-08,2011-03-01,2011,3,11.9925,42.0833,2133,Clear / partly cloudy,1,Working day,Recorded daily humidity,67,316,1817
+2011-03-09,2011-03-01,2011,3,12.129153,77.5417,1891,Mist / cloudy,2,Working day,Recorded daily humidity,68,191,1700
+2011-03-10,2011-03-01,2011,3,15.952731,0.0,623,Light rain / snow,3,Working day,Source records 0% humidity; retained as reported,69,46,577
+2011-03-11,2011-03-01,2011,3,12.977402000000001,64.95649999999999,1977,Mist / cloudy,2,Working day,Recorded daily humidity,70,247,1730
+2011-03-12,2011-03-01,2011,3,13.495847,59.458299999999994,2132,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,71,724,1408
+2011-03-13,2011-03-01,2011,3,15.758268000000001,52.73910000000001,2417,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,72,982,1435
+2011-03-14,2011-03-01,2011,3,13.333896999999999,49.695699999999995,2046,Clear / partly cloudy,1,Working day,Recorded daily humidity,73,359,1687
+2011-03-15,2011-03-01,2011,3,13.013031,65.5652,2056,Mist / cloudy,2,Working day,Recorded daily humidity,74,289,1767
+2011-03-16,2011-03-01,2011,3,14.973897000000001,77.65220000000001,2192,Mist / cloudy,2,Working day,Recorded daily humidity,75,321,1871
+2011-03-17,2011-03-01,2011,3,17.015,60.291700000000006,2744,Clear / partly cloudy,1,Working day,Recorded daily humidity,76,424,2320
+2011-03-18,2011-03-01,2011,3,22.14,52.5217,3239,Clear / partly cloudy,1,Working day,Recorded daily humidity,77,884,2355
+2011-03-19,2011-03-01,2011,3,19.3725,37.9167,3117,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,78,1424,1693
+2011-03-20,2011-03-01,2011,3,13.6325,47.375,2471,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,79,1047,1424
+2011-03-21,2011-03-01,2011,3,17.647835,73.73910000000001,2077,Mist / cloudy,2,Working day,Recorded daily humidity,80,401,1676
+2011-03-22,2011-03-01,2011,3,18.108347,62.4583,2703,Clear / partly cloudy,1,Working day,Recorded daily humidity,81,460,2243
+2011-03-23,2011-03-01,2011,3,14.225237,83.9565,2121,Mist / cloudy,2,Working day,Recorded daily humidity,82,203,1918
+2011-03-24,2011-03-01,2011,3,11.684999999999999,80.58330000000001,1865,Mist / cloudy,2,Working day,Recorded daily humidity,83,166,1699
+2011-03-25,2011-03-01,2011,3,10.830846999999999,49.5,2210,Clear / partly cloudy,1,Working day,Recorded daily humidity,84,300,1910
+2011-03-26,2011-03-01,2011,3,10.899153,39.4167,2496,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,85,981,1515
+2011-03-27,2011-03-01,2011,3,10.374763000000002,49.3913,1693,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,86,472,1221
+2011-03-28,2011-03-01,2011,3,10.838268000000001,30.2174,2028,Clear / partly cloudy,1,Working day,Recorded daily humidity,87,222,1806
+2011-03-29,2011-03-01,2011,3,12.4025,31.4167,2425,Clear / partly cloudy,1,Working day,Recorded daily humidity,88,317,2108
+2011-03-30,2011-03-01,2011,3,12.299999999999999,64.6667,1536,Mist / cloudy,2,Working day,Recorded daily humidity,89,168,1368
+2011-03-31,2011-03-01,2011,3,11.001653,91.8333,1685,Light rain / snow,3,Working day,Recorded daily humidity,90,179,1506
+2011-04-01,2011-04-01,2011,4,12.299999999999999,68.625,2227,Mist / cloudy,2,Working day,Recorded daily humidity,91,307,1920
+2011-04-02,2011-04-01,2011,4,12.915000000000001,65.375,2252,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,92,898,1354
+2011-04-03,2011-04-01,2011,4,15.511652999999999,48.0,3249,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,93,1651,1598
+2011-04-04,2011-04-01,2011,4,23.506653,42.625,3115,Clear / partly cloudy,1,Working day,Recorded daily humidity,94,734,2381
+2011-04-05,2011-04-01,2011,4,16.980847,64.2083,1795,Mist / cloudy,2,Working day,Recorded daily humidity,95,167,1628
+2011-04-06,2011-04-01,2011,4,16.024153,47.0833,2808,Clear / partly cloudy,1,Working day,Recorded daily humidity,96,413,2395
+2011-04-07,2011-04-01,2011,4,17.9375,60.291700000000006,3141,Clear / partly cloudy,1,Working day,Recorded daily humidity,97,571,2570
+2011-04-08,2011-04-01,2011,4,13.769153,83.625,1471,Mist / cloudy,2,Working day,Recorded daily humidity,98,172,1299
+2011-04-09,2011-04-01,2011,4,14.0425,87.75,2455,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,99,879,1576
+2011-04-10,2011-04-01,2011,4,17.493347,85.75,2895,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,100,1188,1707
+2011-04-11,2011-04-01,2011,4,24.421732,71.6956,3348,Mist / cloudy,2,Working day,Recorded daily humidity,101,855,2493
+2011-04-12,2011-04-01,2011,4,20.6025,73.9167,2034,Mist / cloudy,2,Working day,Recorded daily humidity,102,257,1777
+2011-04-13,2011-04-01,2011,4,16.912499999999998,81.91669999999999,2162,Mist / cloudy,2,Working day,Recorded daily humidity,103,209,1953
+2011-04-14,2011-04-01,2011,4,19.1675,54.041700000000006,3267,Clear / partly cloudy,1,Working day,Recorded daily humidity,104,529,2738
+2011-04-15,2011-04-01,2011,4,18.313347,67.125,3126,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,105,642,2484
+2011-04-16,2011-04-01,2011,4,17.664153000000002,88.83330000000001,795,Light rain / snow,3,Weekend / holiday,Recorded daily humidity,106,121,674
+2011-04-17,2011-04-01,2011,4,18.723347,47.9583,3744,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,107,1558,2186
+2011-04-18,2011-04-01,2011,4,21.0125,54.25,3429,Clear / partly cloudy,1,Working day,Recorded daily humidity,108,669,2760
+2011-04-19,2011-04-01,2011,4,20.739152999999998,66.5833,3204,Mist / cloudy,2,Working day,Recorded daily humidity,109,409,2795
+2011-04-20,2011-04-01,2011,4,24.395,61.4167,3944,Clear / partly cloudy,1,Working day,Recorded daily humidity,110,613,3331
+2011-04-21,2011-04-01,2011,4,18.825847,40.708299999999994,4189,Clear / partly cloudy,1,Working day,Recorded daily humidity,111,745,3444
+2011-04-22,2011-04-01,2011,4,13.803347,72.9583,1683,Mist / cloudy,2,Working day,Recorded daily humidity,112,177,1506
+2011-04-23,2011-04-01,2011,4,18.86,88.79169999999999,4036,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,113,1462,2574
+2011-04-24,2011-04-01,2011,4,23.848347,81.08330000000001,4191,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,114,1710,2481
+2011-04-25,2011-04-01,2011,4,24.873347,77.6667,4073,Clear / partly cloudy,1,Working day,Recorded daily humidity,115,773,3300
+2011-04-26,2011-04-01,2011,4,25.898346999999998,72.9167,4400,Clear / partly cloudy,1,Working day,Recorded daily humidity,116,678,3722
+2011-04-27,2011-04-01,2011,4,25.419999999999998,83.54169999999999,3872,Mist / cloudy,2,Working day,Recorded daily humidity,117,547,3325
+2011-04-28,2011-04-01,2011,4,25.317500000000003,70.08330000000001,4058,Mist / cloudy,2,Working day,Recorded daily humidity,118,569,3489
+2011-04-29,2011-04-01,2011,4,20.91,45.7083,4595,Clear / partly cloudy,1,Working day,Recorded daily humidity,119,878,3717
+2011-04-30,2011-04-01,2011,4,19.3725,50.3333,5312,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,120,1965,3347
+2011-05-01,2011-05-01,2011,5,18.518347,76.2083,3351,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,121,1138,2213
+2011-05-02,2011-05-01,2011,5,22.515846999999997,73.0,4401,Mist / cloudy,2,Working day,Recorded daily humidity,122,847,3554
+2011-05-03,2011-05-01,2011,5,25.283347,69.7083,4451,Mist / cloudy,2,Working day,Recorded daily humidity,123,603,3848
+2011-05-04,2011-05-01,2011,5,16.980847,73.70830000000001,2633,Mist / cloudy,2,Working day,Recorded daily humidity,124,255,2378
+2011-05-05,2011-05-01,2011,5,18.825847,44.4167,4433,Clear / partly cloudy,1,Working day,Recorded daily humidity,125,614,3819
+2011-05-06,2011-05-01,2011,5,19.645847,59.0,4608,Clear / partly cloudy,1,Working day,Recorded daily humidity,126,894,3714
+2011-05-07,2011-05-01,2011,5,21.32,54.125,4714,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,127,1612,3102
+2011-05-08,2011-05-01,2011,5,21.661653,63.1667,4333,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,128,1401,2932
+2011-05-09,2011-05-01,2011,5,21.8325,58.875,4362,Clear / partly cloudy,1,Working day,Recorded daily humidity,129,664,3698
+2011-05-10,2011-05-01,2011,5,21.8325,48.9167,4803,Clear / partly cloudy,1,Working day,Recorded daily humidity,130,694,4109
+2011-05-11,2011-05-01,2011,5,22.2425,63.29169999999999,4182,Clear / partly cloudy,1,Working day,Recorded daily humidity,131,550,3632
+2011-05-12,2011-05-01,2011,5,21.935000000000002,74.75,4864,Clear / partly cloudy,1,Working day,Recorded daily humidity,132,695,4169
+2011-05-13,2011-05-01,2011,5,21.0125,86.33330000000001,4105,Mist / cloudy,2,Working day,Recorded daily humidity,133,692,3413
+2011-05-14,2011-05-01,2011,5,21.354153,92.25,3409,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,134,902,2507
+2011-05-15,2011-05-01,2011,5,23.0625,86.70830000000001,4553,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,135,1582,2971
+2011-05-16,2011-05-01,2011,5,23.677500000000002,78.79169999999999,3958,Clear / partly cloudy,1,Working day,Recorded daily humidity,136,773,3185
+2011-05-17,2011-05-01,2011,5,23.028347,83.7917,4123,Mist / cloudy,2,Working day,Recorded daily humidity,137,678,3445
+2011-05-18,2011-05-01,2011,5,22.55,87.0,3855,Mist / cloudy,2,Working day,Recorded daily humidity,138,536,3319
+2011-05-19,2011-05-01,2011,5,21.764153,82.9583,4575,Mist / cloudy,2,Working day,Recorded daily humidity,139,735,3840
+2011-05-20,2011-05-01,2011,5,22.003347,71.9583,4917,Clear / partly cloudy,1,Working day,Recorded daily humidity,140,909,4008
+2011-05-21,2011-05-01,2011,5,24.7025,62.6667,5805,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,141,2258,3547
+2011-05-22,2011-05-01,2011,5,24.770847,74.9583,4660,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,142,1576,3084
+2011-05-23,2011-05-01,2011,5,25.898346999999998,81.0,4274,Mist / cloudy,2,Working day,Recorded daily humidity,143,836,3438
+2011-05-24,2011-05-01,2011,5,27.060000000000002,74.0833,4492,Mist / cloudy,2,Working day,Recorded daily humidity,144,659,3833
+2011-05-25,2011-05-01,2011,5,27.094153,69.625,4978,Clear / partly cloudy,1,Working day,Recorded daily humidity,145,740,4238
+2011-05-26,2011-05-01,2011,5,29.041653,67.75,4677,Clear / partly cloudy,1,Working day,Recorded daily humidity,146,758,3919
+2011-05-27,2011-05-01,2011,5,27.948347000000002,65.375,4679,Clear / partly cloudy,1,Working day,Recorded daily humidity,147,871,3808
+2011-05-28,2011-05-01,2011,5,26.889153,72.9583,4758,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,148,2001,2757
+2011-05-29,2011-05-01,2011,5,27.3675,81.875,4788,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,149,2355,2433
+2011-05-30,2011-05-01,2011,5,30.066653000000002,68.5,4098,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,150,1549,2549
+2011-05-31,2011-05-01,2011,5,31.775000000000002,63.6667,3982,Clear / partly cloudy,1,Working day,Recorded daily humidity,151,673,3309
+2011-06-01,2011-06-01,2011,6,31.330847000000002,67.7083,3974,Mist / cloudy,2,Working day,Recorded daily humidity,152,513,3461
+2011-06-02,2011-06-01,2011,6,29.314999999999998,30.5,4968,Clear / partly cloudy,1,Working day,Recorded daily humidity,153,736,4232
+2011-06-03,2011-06-01,2011,6,25.419999999999998,35.4167,5312,Clear / partly cloudy,1,Working day,Recorded daily humidity,154,898,4414
+2011-06-04,2011-06-01,2011,6,26.035,45.625,5342,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,155,1869,3473
+2011-06-05,2011-06-01,2011,6,26.581653000000003,65.25,4906,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,156,1685,3221
+2011-06-06,2011-06-01,2011,6,27.811653,60.0,4548,Clear / partly cloudy,1,Working day,Recorded daily humidity,157,673,3875
+2011-06-07,2011-06-01,2011,6,29.0075,59.791700000000006,4833,Clear / partly cloudy,1,Working day,Recorded daily humidity,158,763,4070
+2011-06-08,2011-06-01,2011,6,31.809153,62.20830000000001,4401,Clear / partly cloudy,1,Working day,Recorded daily humidity,159,676,3725
+2011-06-09,2011-06-01,2011,6,33.141653,56.833299999999994,3915,Mist / cloudy,2,Working day,Recorded daily humidity,160,563,3352
+2011-06-10,2011-06-01,2011,6,30.955000000000002,60.5,4586,Clear / partly cloudy,1,Working day,Recorded daily humidity,161,815,3771
+2011-06-11,2011-06-01,2011,6,29.724999999999998,65.45830000000001,4966,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,162,1729,3237
+2011-06-12,2011-06-01,2011,6,28.392500000000002,74.7917,4460,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,163,1467,2993
+2011-06-13,2011-06-01,2011,6,26.035,49.4583,5020,Clear / partly cloudy,1,Working day,Recorded daily humidity,164,863,4157
+2011-06-14,2011-06-01,2011,6,24.770847,50.708299999999994,4891,Clear / partly cloudy,1,Working day,Recorded daily humidity,165,727,4164
+2011-06-15,2011-06-01,2011,6,25.693347,47.1667,5180,Clear / partly cloudy,1,Working day,Recorded daily humidity,166,769,4411
+2011-06-16,2011-06-01,2011,6,25.761653000000003,68.8333,3767,Mist / cloudy,2,Working day,Recorded daily humidity,167,545,3222
+2011-06-17,2011-06-01,2011,6,26.615847000000002,73.5833,4844,Clear / partly cloudy,1,Working day,Recorded daily humidity,168,863,3981
+2011-06-18,2011-06-01,2011,6,28.563347,67.0417,5119,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,169,1807,3312
+2011-06-19,2011-06-01,2011,6,28.665847,66.6667,4744,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,170,1639,3105
+2011-06-20,2011-06-01,2011,6,26.035,74.625,4010,Mist / cloudy,2,Working day,Recorded daily humidity,171,699,3311
+2011-06-21,2011-06-01,2011,6,27.914153000000002,77.0417,4835,Mist / cloudy,2,Working day,Recorded daily humidity,172,774,4061
+2011-06-22,2011-06-01,2011,6,30.066653000000002,70.75,4507,Clear / partly cloudy,1,Working day,Recorded daily humidity,173,661,3846
+2011-06-23,2011-06-01,2011,6,29.861653,70.3333,4790,Mist / cloudy,2,Working day,Recorded daily humidity,174,746,4044
+2011-06-24,2011-06-01,2011,6,29.690847,57.3333,4991,Clear / partly cloudy,1,Working day,Recorded daily humidity,175,969,4022
+2011-06-25,2011-06-01,2011,6,28.494999999999997,48.3333,5202,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,176,1782,3420
+2011-06-26,2011-06-01,2011,6,27.880000000000003,51.3333,5305,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,177,1920,3385
+2011-06-27,2011-06-01,2011,6,27.982499999999998,65.8333,4708,Mist / cloudy,2,Working day,Recorded daily humidity,178,854,3854
+2011-06-28,2011-06-01,2011,6,30.510847000000002,63.416700000000006,4648,Clear / partly cloudy,1,Working day,Recorded daily humidity,179,732,3916
+2011-06-29,2011-06-01,2011,6,29.861653,49.7917,5225,Clear / partly cloudy,1,Working day,Recorded daily humidity,180,848,4377
+2011-06-30,2011-06-01,2011,6,28.563347,43.416700000000006,5515,Clear / partly cloudy,1,Working day,Recorded daily humidity,181,1027,4488
+2011-07-01,2011-07-01,2011,7,29.622500000000002,39.625,5362,Clear / partly cloudy,1,Working day,Recorded daily humidity,182,1246,4116
+2011-07-02,2011-07-01,2011,7,30.271653,44.4583,5119,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,183,2204,2915
+2011-07-03,2011-07-01,2011,7,29.383347,68.25,4649,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,184,2282,2367
+2011-07-04,2011-07-01,2011,7,29.793346999999997,63.7917,6043,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,185,3065,2978
+2011-07-05,2011-07-01,2011,7,30.613346999999997,59.0417,4665,Clear / partly cloudy,1,Working day,Recorded daily humidity,186,1031,3634
+2011-07-06,2011-07-01,2011,7,29.52,74.33330000000001,4629,Clear / partly cloudy,1,Working day,Recorded daily humidity,187,784,3845
+2011-07-07,2011-07-01,2011,7,30.75,65.125,4592,Clear / partly cloudy,1,Working day,Recorded daily humidity,188,754,3838
+2011-07-08,2011-07-01,2011,7,29.075847,75.79169999999999,4040,Mist / cloudy,2,Working day,Recorded daily humidity,189,692,3348
+2011-07-09,2011-07-01,2011,7,30.066653000000002,60.9167,5336,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,190,1988,3348
+2011-07-10,2011-07-01,2011,7,30.6475,57.8333,4881,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,191,1743,3138
+2011-07-11,2011-07-01,2011,7,31.2625,63.5833,4086,Clear / partly cloudy,1,Working day,Recorded daily humidity,192,723,3363
+2011-07-12,2011-07-01,2011,7,32.560846999999995,55.9167,4258,Clear / partly cloudy,1,Working day,Recorded daily humidity,193,662,3596
+2011-07-13,2011-07-01,2011,7,30.613346999999997,63.1667,4342,Clear / partly cloudy,1,Working day,Recorded daily humidity,194,748,3594
+2011-07-14,2011-07-01,2011,7,27.914153000000002,47.625,5084,Clear / partly cloudy,1,Working day,Recorded daily humidity,195,888,4196
+2011-07-15,2011-07-01,2011,7,27.196652999999998,59.12500000000001,5538,Clear / partly cloudy,1,Working day,Recorded daily humidity,196,1318,4220
+2011-07-16,2011-07-01,2011,7,28.153347,58.5,5923,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,197,2418,3505
+2011-07-17,2011-07-01,2011,7,29.485847,60.4167,5302,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,198,2006,3296
+2011-07-18,2011-07-01,2011,7,30.613346999999997,65.125,4458,Clear / partly cloudy,1,Working day,Recorded daily humidity,199,841,3617
+2011-07-19,2011-07-01,2011,7,31.843347,65.0417,4541,Clear / partly cloudy,1,Working day,Recorded daily humidity,200,752,3789
+2011-07-20,2011-07-01,2011,7,31.501653,70.70830000000001,4332,Clear / partly cloudy,1,Working day,Recorded daily humidity,201,644,3688
+2011-07-21,2011-07-01,2011,7,33.415,69.125,3784,Mist / cloudy,2,Working day,Recorded daily humidity,202,632,3152
+2011-07-22,2011-07-01,2011,7,34.781653,58.0417,3387,Clear / partly cloudy,1,Working day,Recorded daily humidity,203,562,2825
+2011-07-23,2011-07-01,2011,7,34.815847,50.0,3285,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,204,987,2298
+2011-07-24,2011-07-01,2011,7,34.03,55.0833,3606,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,205,1050,2556
+2011-07-25,2011-07-01,2011,7,30.476653000000002,75.7083,3840,Clear / partly cloudy,1,Working day,Recorded daily humidity,206,568,3272
+2011-07-26,2011-07-01,2011,7,31.638347,54.0833,4590,Clear / partly cloudy,1,Working day,Recorded daily humidity,207,750,3840
+2011-07-27,2011-07-01,2011,7,31.775000000000002,40.291700000000006,4656,Clear / partly cloudy,1,Working day,Recorded daily humidity,208,755,3901
+2011-07-28,2011-07-01,2011,7,31.945847,58.3333,4390,Clear / partly cloudy,1,Working day,Recorded daily humidity,209,606,3784
+2011-07-29,2011-07-01,2011,7,34.371653,54.25,3846,Clear / partly cloudy,1,Working day,Recorded daily humidity,210,670,3176
+2011-07-30,2011-07-01,2011,7,32.970847,46.5833,4475,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,211,1559,2916
+2011-07-31,2011-07-01,2011,7,33.039153,48.0833,4302,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,212,1524,2778
+2011-08-01,2011-08-01,2011,8,31.638347,55.0833,4266,Clear / partly cloudy,1,Working day,Recorded daily humidity,213,729,3537
+2011-08-02,2011-08-01,2011,8,32.116653,49.125,4845,Clear / partly cloudy,1,Working day,Recorded daily humidity,214,801,4044
+2011-08-03,2011-08-01,2011,8,29.998347,65.75,3574,Mist / cloudy,2,Working day,Recorded daily humidity,215,467,3107
+2011-08-04,2011-08-01,2011,8,29.11,75.75,4576,Mist / cloudy,2,Working day,Recorded daily humidity,216,799,3777
+2011-08-05,2011-08-01,2011,8,29.144153000000003,63.083299999999994,4866,Clear / partly cloudy,1,Working day,Recorded daily humidity,217,1023,3843
+2011-08-06,2011-08-01,2011,8,29.383347,75.5,4294,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,218,1521,2773
+2011-08-07,2011-08-01,2011,8,30.442500000000003,75.29169999999999,3785,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,219,1298,2487
+2011-08-08,2011-08-01,2011,8,31.365000000000002,59.2083,4326,Clear / partly cloudy,1,Working day,Recorded daily humidity,220,846,3480
+2011-08-09,2011-08-01,2011,8,31.775000000000002,57.04169999999999,4602,Clear / partly cloudy,1,Working day,Recorded daily humidity,221,907,3695
+2011-08-10,2011-08-01,2011,8,31.433346999999998,42.4167,4780,Clear / partly cloudy,1,Working day,Recorded daily humidity,222,884,3896
+2011-08-11,2011-08-01,2011,8,29.4175,42.375,4792,Clear / partly cloudy,1,Working day,Recorded daily humidity,223,812,3980
+2011-08-12,2011-08-01,2011,8,29.041653,41.5,4905,Clear / partly cloudy,1,Working day,Recorded daily humidity,224,1051,3854
+2011-08-13,2011-08-01,2011,8,28.119153,72.9583,4150,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,225,1504,2646
+2011-08-14,2011-08-01,2011,8,27.743347,81.75,3820,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,226,1338,2482
+2011-08-15,2011-08-01,2011,8,27.299153,71.20830000000001,4338,Clear / partly cloudy,1,Working day,Recorded daily humidity,227,775,3563
+2011-08-16,2011-08-01,2011,8,28.734153000000003,57.8333,4725,Clear / partly cloudy,1,Working day,Recorded daily humidity,228,721,4004
+2011-08-17,2011-08-01,2011,8,29.656653,57.5417,4694,Clear / partly cloudy,1,Working day,Recorded daily humidity,229,668,4026
+2011-08-18,2011-08-01,2011,8,29.178347000000002,65.45830000000001,3805,Clear / partly cloudy,1,Working day,Recorded daily humidity,230,639,3166
+2011-08-19,2011-08-01,2011,8,28.085,72.2917,4153,Mist / cloudy,2,Working day,Recorded daily humidity,231,797,3356
+2011-08-20,2011-08-01,2011,8,28.5975,67.41669999999999,5191,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,232,1914,3277
+2011-08-21,2011-08-01,2011,8,29.144153000000003,77.0,3873,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,233,1249,2624
+2011-08-22,2011-08-01,2011,8,28.358347000000002,47.0,4758,Clear / partly cloudy,1,Working day,Recorded daily humidity,234,833,3925
+2011-08-23,2011-08-01,2011,8,26.274153,45.5417,5895,Clear / partly cloudy,1,Working day,Recorded daily humidity,235,1281,4614
+2011-08-24,2011-08-01,2011,8,27.606652999999998,60.5,5130,Clear / partly cloudy,1,Working day,Recorded daily humidity,236,949,4181
+2011-08-25,2011-08-01,2011,8,28.050846999999997,77.1667,3542,Mist / cloudy,2,Working day,Recorded daily humidity,237,435,3107
+2011-08-26,2011-08-01,2011,8,28.7,76.125,4661,Clear / partly cloudy,1,Working day,Recorded daily humidity,238,768,3893
+2011-08-27,2011-08-01,2011,8,27.880000000000003,85.0,1115,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,239,226,889
+2011-08-28,2011-08-01,2011,8,28.989418999999998,56.1765,4334,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,240,1415,2919
+2011-08-29,2011-08-01,2011,8,26.103347,55.45830000000001,4634,Clear / partly cloudy,1,Working day,Recorded daily humidity,241,729,3905
+2011-08-30,2011-08-01,2011,8,26.205847000000002,54.833299999999994,5204,Clear / partly cloudy,1,Working day,Recorded daily humidity,242,775,4429
+2011-08-31,2011-08-01,2011,8,26.923347,59.791700000000006,5058,Clear / partly cloudy,1,Working day,Recorded daily humidity,243,688,4370
+2011-09-01,2011-09-01,2011,9,26.855,63.916700000000006,5115,Clear / partly cloudy,1,Working day,Recorded daily humidity,244,783,4332
+2011-09-02,2011-09-01,2011,9,26.376653,72.70830000000001,4727,Mist / cloudy,2,Working day,Recorded daily humidity,245,875,3852
+2011-09-03,2011-09-01,2011,9,27.435847,71.6667,4484,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,246,1935,2549
+2011-09-04,2011-09-01,2011,9,29.075847,74.20830000000001,4940,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,247,2521,2419
+2011-09-05,2011-09-01,2011,9,27.606652999999998,79.0417,3351,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,248,1236,2115
+2011-09-06,2011-09-01,2011,9,22.14,88.6957,2710,Light rain / snow,3,Working day,Recorded daily humidity,249,204,2506
+2011-09-07,2011-09-01,2011,9,24.565847,91.7083,1996,Light rain / snow,3,Working day,Recorded daily humidity,250,118,1878
+2011-09-08,2011-09-01,2011,9,25.990433,93.9565,1842,Light rain / snow,3,Working day,Recorded daily humidity,251,153,1689
+2011-09-09,2011-09-01,2011,9,26.650000000000002,89.79169999999999,3544,Mist / cloudy,2,Working day,Recorded daily humidity,252,417,3127
+2011-09-10,2011-09-01,2011,9,27.060000000000002,75.375,5345,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,253,1750,3595
+2011-09-11,2011-09-01,2011,9,26.786653,71.375,5046,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,254,1633,3413
+2011-09-12,2011-09-01,2011,9,26.418268,69.2174,4713,Clear / partly cloudy,1,Working day,Recorded daily humidity,255,690,4023
+2011-09-13,2011-09-01,2011,9,26.684153,71.25,4763,Clear / partly cloudy,1,Working day,Recorded daily humidity,256,701,4062
+2011-09-14,2011-09-01,2011,9,27.606652999999998,69.7083,4785,Clear / partly cloudy,1,Working day,Recorded daily humidity,257,647,4138
+2011-09-15,2011-09-01,2011,9,23.677500000000002,70.9167,3659,Mist / cloudy,2,Working day,Recorded daily humidity,258,428,3231
+2011-09-16,2011-09-01,2011,9,19.235847,59.0417,4760,Mist / cloudy,2,Working day,Recorded daily humidity,259,742,4018
+2011-09-17,2011-09-01,2011,9,20.158347,71.8333,4511,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,260,1434,3077
+2011-09-18,2011-09-01,2011,9,20.807499999999997,69.5,4274,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,261,1353,2921
+2011-09-19,2011-09-01,2011,9,22.515846999999997,69.0,4539,Mist / cloudy,2,Working day,Recorded daily humidity,262,691,3848
+2011-09-20,2011-09-01,2011,9,23.028347,88.125,3641,Mist / cloudy,2,Working day,Recorded daily humidity,263,438,3203
+2011-09-21,2011-09-01,2011,9,24.395,90.0,4352,Mist / cloudy,2,Working day,Recorded daily humidity,264,539,3813
+2011-09-22,2011-09-01,2011,9,25.761653000000003,90.2083,4795,Mist / cloudy,2,Working day,Recorded daily humidity,265,555,4240
+2011-09-23,2011-09-01,2011,9,24.975847,97.25,2395,Mist / cloudy,2,Working day,Recorded daily humidity,266,258,2137
+2011-09-24,2011-09-01,2011,9,24.873347,86.25,5423,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,267,1776,3647
+2011-09-25,2011-09-01,2011,9,26.000847,84.5,5010,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,268,1544,3466
+2011-09-26,2011-09-01,2011,9,26.615847000000002,84.8333,4630,Mist / cloudy,2,Working day,Recorded daily humidity,269,684,3946
+2011-09-27,2011-09-01,2011,9,26.103347,88.5417,4120,Mist / cloudy,2,Working day,Recorded daily humidity,270,477,3643
+2011-09-28,2011-09-01,2011,9,26.035,84.875,3907,Mist / cloudy,2,Working day,Recorded daily humidity,271,480,3427
+2011-09-29,2011-09-01,2011,9,25.283347,69.91669999999999,4839,Clear / partly cloudy,1,Working day,Recorded daily humidity,272,653,4186
+2011-09-30,2011-09-01,2011,9,23.130847,64.75,5202,Clear / partly cloudy,1,Working day,Recorded daily humidity,273,830,4372
+2011-10-01,2011-10-01,2011,10,16.81,75.375,2429,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,274,480,1949
+2011-10-02,2011-10-01,2011,10,14.623347,79.1667,2918,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,275,616,2302
+2011-10-03,2011-10-01,2011,10,15.750846999999998,76.0833,3570,Mist / cloudy,2,Working day,Recorded daily humidity,276,330,3240
+2011-10-04,2011-10-01,2011,10,19.850847,71.0,4456,Clear / partly cloudy,1,Working day,Recorded daily humidity,277,486,3970
+2011-10-05,2011-10-01,2011,10,22.071652999999998,64.79169999999999,4826,Clear / partly cloudy,1,Working day,Recorded daily humidity,278,559,4267
+2011-10-06,2011-10-01,2011,10,20.260847000000002,62.083299999999994,4765,Clear / partly cloudy,1,Working day,Recorded daily humidity,279,639,4126
+2011-10-07,2011-10-01,2011,10,20.944153,68.41669999999999,4985,Clear / partly cloudy,1,Working day,Recorded daily humidity,280,949,4036
+2011-10-08,2011-10-01,2011,10,21.388347,70.125,5409,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,281,2235,3174
+2011-10-09,2011-10-01,2011,10,22.174153,72.75,5511,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,282,2397,3114
+2011-10-10,2011-10-01,2011,10,23.404153,73.375,5117,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,283,1514,3603
+2011-10-11,2011-10-01,2011,10,23.233347000000002,80.875,4563,Mist / cloudy,2,Working day,Recorded daily humidity,284,667,3896
+2011-10-12,2011-10-01,2011,10,22.276653,90.625,2416,Light rain / snow,3,Working day,Recorded daily humidity,285,217,2199
+2011-10-13,2011-10-01,2011,10,24.155847,89.6667,2913,Mist / cloudy,2,Working day,Recorded daily humidity,286,290,2623
+2011-10-14,2011-10-01,2011,10,22.584153,71.625,3644,Mist / cloudy,2,Working day,Recorded daily humidity,287,529,3115
+2011-10-15,2011-10-01,2011,10,20.773346999999998,48.3333,5217,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,288,1899,3318
+2011-10-16,2011-10-01,2011,10,20.978347,48.6667,5041,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,289,1748,3293
+2011-10-17,2011-10-01,2011,10,21.900847,57.958299999999994,4570,Clear / partly cloudy,1,Working day,Recorded daily humidity,290,713,3857
+2011-10-18,2011-10-01,2011,10,21.8325,70.1667,4748,Mist / cloudy,2,Working day,Recorded daily humidity,291,637,4111
+2011-10-19,2011-10-01,2011,10,22.211299,89.52170000000001,2424,Light rain / snow,3,Working day,Recorded daily humidity,292,254,2170
+2011-10-20,2011-10-01,2011,10,19.509153,63.625,4195,Clear / partly cloudy,1,Working day,Recorded daily humidity,293,471,3724
+2011-10-21,2011-10-01,2011,10,17.5275,57.4167,4304,Clear / partly cloudy,1,Working day,Recorded daily humidity,294,676,3628
+2011-10-22,2011-10-01,2011,10,17.322499999999998,62.916700000000006,4308,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,295,1499,2809
+2011-10-23,2011-10-01,2011,10,17.288347,74.125,4381,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,296,1619,2762
+2011-10-24,2011-10-01,2011,10,18.996653,77.2083,4187,Clear / partly cloudy,1,Working day,Recorded daily humidity,297,699,3488
+2011-10-25,2011-10-01,2011,10,19.338347,62.291700000000006,4687,Clear / partly cloudy,1,Working day,Recorded daily humidity,298,695,3992
+2011-10-26,2011-10-01,2011,10,19.850847,72.04169999999999,3894,Mist / cloudy,2,Working day,Recorded daily humidity,299,404,3490
+2011-10-27,2011-10-01,2011,10,19.27,81.2917,2659,Mist / cloudy,2,Working day,Recorded daily humidity,300,240,2419
+2011-10-28,2011-10-01,2011,10,13.564153,58.58330000000001,3747,Mist / cloudy,2,Working day,Recorded daily humidity,301,456,3291
+2011-10-29,2011-10-01,2011,10,10.420846999999998,88.25,627,Light rain / snow,3,Weekend / holiday,Recorded daily humidity,302,57,570
+2011-10-30,2011-10-01,2011,10,13.085847,62.375,3331,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,303,885,2446
+2011-10-31,2011-10-01,2011,10,13.940000000000001,70.3333,3669,Clear / partly cloudy,1,Working day,Recorded daily humidity,304,362,3307
+2011-11-01,2011-11-01,2011,11,16.434153,68.375,4068,Clear / partly cloudy,1,Working day,Recorded daily humidity,305,410,3658
+2011-11-02,2011-11-01,2011,11,15.477500000000001,71.875,4186,Clear / partly cloudy,1,Working day,Recorded daily humidity,306,370,3816
+2011-11-03,2011-11-01,2011,11,16.741653,70.20830000000001,3974,Clear / partly cloudy,1,Working day,Recorded daily humidity,307,318,3656
+2011-11-04,2011-11-01,2011,11,16.536653,62.25000000000001,4046,Mist / cloudy,2,Working day,Recorded daily humidity,308,470,3576
+2011-11-05,2011-11-01,2011,11,13.393346999999999,51.916700000000006,3926,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,309,1156,2770
+2011-11-06,2011-11-01,2011,11,14.281653,73.4583,3649,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,310,952,2697
+2011-11-07,2011-11-01,2011,11,16.195,75.875,4035,Clear / partly cloudy,1,Working day,Recorded daily humidity,311,373,3662
+2011-11-08,2011-11-01,2011,11,16.741653,72.16669999999999,4205,Clear / partly cloudy,1,Working day,Recorded daily humidity,312,376,3829
+2011-11-09,2011-11-01,2011,11,16.400000000000002,75.83330000000001,4109,Clear / partly cloudy,1,Working day,Recorded daily humidity,313,305,3804
+2011-11-10,2011-11-01,2011,11,15.58,81.3333,2933,Mist / cloudy,2,Working day,Recorded daily humidity,314,190,2743
+2011-11-11,2011-11-01,2011,11,13.290847,44.625,3368,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,315,440,2928
+2011-11-12,2011-11-01,2011,11,14.623347,55.2917,4067,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,316,1275,2792
+2011-11-13,2011-11-01,2011,11,18.074153,45.8333,3717,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,317,1004,2713
+2011-11-14,2011-11-01,2011,11,21.73,58.7083,4486,Clear / partly cloudy,1,Working day,Recorded daily humidity,318,595,3891
+2011-11-15,2011-11-01,2011,11,21.73,68.875,4195,Mist / cloudy,2,Working day,Recorded daily humidity,319,449,3746
+2011-11-16,2011-11-01,2011,11,18.723347,93.0,1817,Light rain / snow,3,Working day,Recorded daily humidity,320,145,1672
+2011-11-17,2011-11-01,2011,11,14.008347,57.5833,3053,Mist / cloudy,2,Working day,Recorded daily humidity,321,139,2914
+2011-11-18,2011-11-01,2011,11,11.240847,41.0,3392,Clear / partly cloudy,1,Working day,Recorded daily humidity,322,245,3147
+2011-11-19,2011-11-01,2011,11,13.495847,50.208299999999994,3663,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,323,943,2720
+2011-11-20,2011-11-01,2011,11,18.996653,68.45830000000001,3520,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,324,787,2733
+2011-11-21,2011-11-01,2011,11,18.3475,91.0,2765,Light rain / snow,3,Working day,Recorded daily humidity,325,220,2545
+2011-11-22,2011-11-01,2011,11,17.083347,96.25,1607,Light rain / snow,3,Working day,Recorded daily humidity,326,69,1538
+2011-11-23,2011-11-01,2011,11,18.074153,75.79169999999999,2566,Mist / cloudy,2,Working day,Recorded daily humidity,327,112,2454
+2011-11-24,2011-11-01,2011,11,15.306653,54.9167,1495,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,328,560,935
+2011-11-25,2011-11-01,2011,11,15.375,64.375,2792,Clear / partly cloudy,1,Working day,Recorded daily humidity,329,1095,1697
+2011-11-26,2011-11-01,2011,11,15.409152999999998,68.1667,3068,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,330,1249,1819
+2011-11-27,2011-11-01,2011,11,18.825847,69.8333,3071,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,331,810,2261
+2011-11-28,2011-11-01,2011,11,20.642598,74.3043,3867,Clear / partly cloudy,1,Working day,Recorded daily humidity,332,253,3614
+2011-11-29,2011-11-01,2011,11,18.791653,83.08330000000001,2914,Mist / cloudy,2,Working day,Recorded daily humidity,333,96,2818
+2011-11-30,2011-11-01,2011,11,13.325000000000001,61.3333,3613,Clear / partly cloudy,1,Working day,Recorded daily humidity,334,188,3425
+2011-12-01,2011-12-01,2011,12,12.8125,52.4583,3727,Clear / partly cloudy,1,Working day,Recorded daily humidity,335,182,3545
+2011-12-02,2011-12-01,2011,12,12.880847,62.583299999999994,3940,Clear / partly cloudy,1,Working day,Recorded daily humidity,336,268,3672
+2011-12-03,2011-12-01,2011,12,12.265847,61.291700000000006,3614,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,337,706,2908
+2011-12-04,2011-12-01,2011,12,13.564153,77.5833,3485,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,338,634,2851
+2011-12-05,2011-12-01,2011,12,15.819153,82.70830000000001,3811,Mist / cloudy,2,Working day,Recorded daily humidity,339,233,3578
+2011-12-06,2011-12-01,2011,12,18.962500000000002,94.9583,2594,Light rain / snow,3,Working day,Recorded daily humidity,340,126,2468
+2011-12-07,2011-12-01,2011,12,16.81,97.04169999999999,705,Light rain / snow,3,Working day,Recorded daily humidity,341,50,655
+2011-12-08,2011-12-01,2011,12,10.899153,57.99999999999999,3322,Clear / partly cloudy,1,Working day,Recorded daily humidity,342,150,3172
+2011-12-09,2011-12-01,2011,12,11.924153,69.58330000000001,3620,Clear / partly cloudy,1,Working day,Recorded daily humidity,343,261,3359
+2011-12-10,2011-12-01,2011,12,11.275,50.74999999999999,3190,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,344,502,2688
+2011-12-11,2011-12-01,2011,12,9.054153,49.0,2743,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,345,377,2366
+2011-12-12,2011-12-01,2011,12,9.771652999999999,67.08330000000001,3310,Clear / partly cloudy,1,Working day,Recorded daily humidity,346,143,3167
+2011-12-13,2011-12-01,2011,12,11.5825,59.0,3523,Clear / partly cloudy,1,Working day,Recorded daily humidity,347,155,3368
+2011-12-14,2011-12-01,2011,12,13.0175,66.375,3740,Mist / cloudy,2,Working day,Recorded daily humidity,348,178,3562
+2011-12-15,2011-12-01,2011,12,17.322499999999998,63.416700000000006,3709,Mist / cloudy,2,Working day,Recorded daily humidity,349,181,3528
+2011-12-16,2011-12-01,2011,12,15.375,50.0417,3577,Mist / cloudy,2,Working day,Recorded daily humidity,350,178,3399
+2011-12-17,2011-12-01,2011,12,10.591652999999999,56.0833,2739,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,351,275,2464
+2011-12-18,2011-12-01,2011,12,9.771652999999999,58.62500000000001,2431,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,352,220,2211
+2011-12-19,2011-12-01,2011,12,11.343347,63.74999999999999,3403,Clear / partly cloudy,1,Working day,Recorded daily humidity,353,260,3143
+2011-12-20,2011-12-01,2011,12,15.819153,59.5417,3750,Mist / cloudy,2,Working day,Recorded daily humidity,354,216,3534
+2011-12-21,2011-12-01,2011,12,17.561653,85.83330000000001,2660,Mist / cloudy,2,Working day,Recorded daily humidity,355,107,2553
+2011-12-22,2011-12-01,2011,12,17.356653,75.75,3068,Mist / cloudy,2,Working day,Recorded daily humidity,356,227,2841
+2011-12-23,2011-12-01,2011,12,15.306653,68.625,2209,Clear / partly cloudy,1,Working day,Recorded daily humidity,357,163,2046
+2011-12-24,2011-12-01,2011,12,12.4025,54.25,1011,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,358,155,856
+2011-12-25,2011-12-01,2011,12,11.266103,68.13040000000001,754,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,359,303,451
+2011-12-26,2011-12-01,2011,12,13.191299,50.6957,1317,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,360,430,887
+2011-12-27,2011-12-01,2011,12,13.325000000000001,76.25,1162,Mist / cloudy,2,Working day,Recorded daily humidity,361,103,1059
+2011-12-28,2011-12-01,2011,12,12.264330000000001,50.39130000000001,2302,Clear / partly cloudy,1,Working day,Recorded daily humidity,362,255,2047
+2011-12-29,2011-12-01,2011,12,10.181653,57.4167,2423,Clear / partly cloudy,1,Working day,Recorded daily humidity,363,254,2169
+2011-12-30,2011-12-01,2011,12,12.778347000000002,63.6667,2999,Clear / partly cloudy,1,Working day,Recorded daily humidity,364,491,2508
+2011-12-31,2011-12-01,2011,12,16.81,61.583299999999994,2485,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,365,665,1820
+2012-01-01,2012-01-01,2012,1,15.17,69.25,2294,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,366,686,1608
+2012-01-02,2012-01-01,2012,1,11.194763,38.130399999999995,1951,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,367,244,1707
+2012-01-03,2012-01-01,2012,1,6.1499999999999995,44.125,2236,Clear / partly cloudy,1,Working day,Recorded daily humidity,368,89,2147
+2012-01-04,2012-01-01,2012,1,4.4075,41.4583,2368,Mist / cloudy,2,Working day,Recorded daily humidity,369,95,2273
+2012-01-05,2012-01-01,2012,1,10.899153,52.416700000000006,3272,Clear / partly cloudy,1,Working day,Recorded daily humidity,370,140,3132
+2012-01-06,2012-01-01,2012,1,13.700847,54.2083,4098,Clear / partly cloudy,1,Working day,Recorded daily humidity,371,307,3791
+2012-01-07,2012-01-01,2012,1,16.126653,53.1667,4521,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,372,1070,3451
+2012-01-08,2012-01-01,2012,1,13.8375,46.5,3425,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,373,599,2826
+2012-01-09,2012-01-01,2012,1,9.190847,70.1667,2376,Mist / cloudy,2,Working day,Recorded daily humidity,374,106,2270
+2012-01-10,2012-01-01,2012,1,12.656536000000001,64.65220000000001,3598,Clear / partly cloudy,1,Working day,Recorded daily humidity,375,173,3425
+2012-01-11,2012-01-01,2012,1,11.240847,84.75,2177,Mist / cloudy,2,Working day,Recorded daily humidity,376,92,2085
+2012-01-12,2012-01-01,2012,1,15.682500000000001,80.2917,4097,Mist / cloudy,2,Working day,Recorded daily humidity,377,269,3828
+2012-01-13,2012-01-01,2012,1,11.240847,50.74999999999999,3214,Clear / partly cloudy,1,Working day,Recorded daily humidity,378,174,3040
+2012-01-14,2012-01-01,2012,1,7.38,45.75,2493,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,379,333,2160
+2012-01-15,2012-01-01,2012,1,6.833347000000001,41.9167,2311,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,380,284,2027
+2012-01-16,2012-01-01,2012,1,7.79,52.25,2298,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,381,217,2081
+2012-01-17,2012-01-01,2012,1,15.294763,71.6087,2935,Mist / cloudy,2,Working day,Recorded daily humidity,382,127,2808
+2012-01-18,2012-01-01,2012,1,12.436653000000002,44.333299999999994,3376,Clear / partly cloudy,1,Working day,Recorded daily humidity,383,109,3267
+2012-01-19,2012-01-01,2012,1,7.79,49.75,3292,Clear / partly cloudy,1,Working day,Recorded daily humidity,384,130,3162
+2012-01-20,2012-01-01,2012,1,8.9175,45.0,3163,Mist / cloudy,2,Working day,Recorded daily humidity,385,115,3048
+2012-01-21,2012-01-01,2012,1,7.106653,83.125,1301,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,386,67,1234
+2012-01-22,2012-01-01,2012,1,6.6625000000000005,79.625,1977,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,387,196,1781
+2012-01-23,2012-01-01,2012,1,8.951653,91.125,2432,Mist / cloudy,2,Working day,Recorded daily humidity,388,145,2287
+2012-01-24,2012-01-01,2012,1,14.0425,83.58330000000001,4339,Clear / partly cloudy,1,Working day,Recorded daily humidity,389,439,3900
+2012-01-25,2012-01-01,2012,1,12.060847,64.375,4270,Clear / partly cloudy,1,Working day,Recorded daily humidity,390,467,3803
+2012-01-26,2012-01-01,2012,1,14.008347,76.95830000000001,4075,Mist / cloudy,2,Working day,Recorded daily humidity,391,244,3831
+2012-01-27,2012-01-01,2012,1,17.425,74.125,3456,Mist / cloudy,2,Working day,Recorded daily humidity,392,269,3187
+2012-01-28,2012-01-01,2012,1,12.949152999999999,54.333299999999994,4023,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,393,775,3248
+2012-01-29,2012-01-01,2012,1,11.5825,31.125000000000004,3243,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,394,558,2685
+2012-01-30,2012-01-01,2012,1,11.035847,40.0833,3624,Clear / partly cloudy,1,Working day,Recorded daily humidity,395,126,3498
+2012-01-31,2012-01-01,2012,1,15.99,41.6667,4509,Clear / partly cloudy,1,Working day,Recorded daily humidity,396,324,4185
+2012-02-01,2012-02-01,2012,2,19.235847,50.79169999999999,4579,Clear / partly cloudy,1,Working day,Recorded daily humidity,397,304,4275
+2012-02-02,2012-02-01,2012,2,16.365847,67.29169999999999,3761,Mist / cloudy,2,Working day,Recorded daily humidity,398,190,3571
+2012-02-03,2012-02-01,2012,2,12.846652999999998,52.6667,4151,Clear / partly cloudy,1,Working day,Recorded daily humidity,399,310,3841
+2012-02-04,2012-02-01,2012,2,10.830846999999999,77.95830000000001,2832,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,400,384,2448
+2012-02-05,2012-02-01,2012,2,10.899153,68.7917,2947,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,401,318,2629
+2012-02-06,2012-02-01,2012,2,11.586969,62.2174,3784,Clear / partly cloudy,1,Working day,Recorded daily humidity,402,206,3578
+2012-02-07,2012-02-01,2012,2,14.520847,49.625,4375,Clear / partly cloudy,1,Working day,Recorded daily humidity,403,199,4176
+2012-02-08,2012-02-01,2012,2,10.523347,72.2917,2802,Mist / cloudy,2,Working day,Recorded daily humidity,404,109,2693
+2012-02-09,2012-02-01,2012,2,10.865,56.2083,3830,Clear / partly cloudy,1,Working day,Recorded daily humidity,405,163,3667
+2012-02-10,2012-02-01,2012,2,11.514153,54.0,3831,Mist / cloudy,2,Working day,Recorded daily humidity,406,227,3604
+2012-02-11,2012-02-01,2012,2,9.190847,73.125,2169,Light rain / snow,3,Weekend / holiday,Recorded daily humidity,407,192,1977
+2012-02-12,2012-02-01,2012,2,5.2275,46.4583,1529,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,408,73,1456
+2012-02-13,2012-02-01,2012,2,9.1225,41.125,3422,Clear / partly cloudy,1,Working day,Recorded daily humidity,409,94,3328
+2012-02-14,2012-02-01,2012,2,13.085847,50.875,3922,Mist / cloudy,2,Working day,Recorded daily humidity,410,135,3787
+2012-02-15,2012-02-01,2012,2,14.281653,53.125,4169,Clear / partly cloudy,1,Working day,Recorded daily humidity,411,141,4028
+2012-02-16,2012-02-01,2012,2,12.983346999999998,75.29169999999999,3005,Mist / cloudy,2,Working day,Recorded daily humidity,412,74,2931
+2012-02-17,2012-02-01,2012,2,14.076653,63.4583,4154,Clear / partly cloudy,1,Working day,Recorded daily humidity,413,349,3805
+2012-02-18,2012-02-01,2012,2,14.213347,53.4583,4318,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,414,1435,2883
+2012-02-19,2012-02-01,2012,2,11.48,51.5833,2689,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,415,618,2071
+2012-02-20,2012-02-01,2012,2,11.48,50.7826,3129,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,416,502,2627
+2012-02-21,2012-02-01,2012,2,11.800866000000001,59.434799999999996,3777,Clear / partly cloudy,1,Working day,Recorded daily humidity,417,163,3614
+2012-02-22,2012-02-01,2012,2,16.229153,56.7917,4773,Clear / partly cloudy,1,Working day,Recorded daily humidity,418,394,4379
+2012-02-23,2012-02-01,2012,2,18.620846999999998,55.45830000000001,5062,Clear / partly cloudy,1,Working day,Recorded daily humidity,419,516,4546
+2012-02-24,2012-02-01,2012,2,16.7075,73.75,3487,Mist / cloudy,2,Working day,Recorded daily humidity,420,246,3241
+2012-02-25,2012-02-01,2012,2,11.924153,39.5833,2732,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,421,317,2415
+2012-02-26,2012-02-01,2012,2,11.445847,41.0,3389,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,422,515,2874
+2012-02-27,2012-02-01,2012,2,15.033347000000001,49.0833,4322,Clear / partly cloudy,1,Working day,Recorded daily humidity,423,253,4069
+2012-02-28,2012-02-01,2012,2,14.725847,39.5833,4363,Clear / partly cloudy,1,Working day,Recorded daily humidity,424,229,4134
+2012-02-29,2012-02-01,2012,2,14.118267999999999,80.4783,1834,Mist / cloudy,2,Working day,Recorded daily humidity,425,65,1769
+2012-03-01,2012-03-01,2012,3,19.919153,61.5417,4990,Clear / partly cloudy,1,Working day,Recorded daily humidity,426,325,4665
+2012-03-02,2012-03-01,2012,3,14.486653,65.7083,3194,Mist / cloudy,2,Working day,Recorded daily humidity,427,246,2948
+2012-03-03,2012-03-01,2012,3,16.980847,62.125,4066,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,428,956,3110
+2012-03-04,2012-03-01,2012,3,13.359153,40.3333,3423,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,429,710,2713
+2012-03-05,2012-03-01,2012,3,9.976652999999999,50.625,3333,Clear / partly cloudy,1,Working day,Recorded daily humidity,430,203,3130
+2012-03-06,2012-03-01,2012,3,10.591652999999999,45.6667,3956,Clear / partly cloudy,1,Working day,Recorded daily humidity,431,221,3735
+2012-03-07,2012-03-01,2012,3,16.570847,51.3333,4916,Clear / partly cloudy,1,Working day,Recorded daily humidity,432,432,4484
+2012-03-08,2012-03-01,2012,3,21.627499999999998,56.75,5382,Clear / partly cloudy,1,Working day,Recorded daily humidity,433,486,4896
+2012-03-09,2012-03-01,2012,3,16.844153,40.708299999999994,4569,Mist / cloudy,2,Working day,Recorded daily humidity,434,447,4122
+2012-03-10,2012-03-01,2012,3,11.7875,35.0417,4118,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,435,968,3150
+2012-03-11,2012-03-01,2012,3,14.831299,47.6957,4911,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,436,1658,3253
+2012-03-12,2012-03-01,2012,3,19.133347,48.9167,5298,Clear / partly cloudy,1,Working day,Recorded daily humidity,437,838,4460
+2012-03-13,2012-03-01,2012,3,23.165,61.75000000000001,5847,Clear / partly cloudy,1,Working day,Recorded daily humidity,438,762,5085
+2012-03-14,2012-03-01,2012,3,23.4725,50.708299999999994,6312,Clear / partly cloudy,1,Working day,Recorded daily humidity,439,997,5315
+2012-03-15,2012-03-01,2012,3,22.857499999999998,57.958299999999994,6192,Clear / partly cloudy,1,Working day,Recorded daily humidity,440,1005,5187
+2012-03-16,2012-03-01,2012,3,17.869153,84.20830000000001,4378,Mist / cloudy,2,Working day,Recorded daily humidity,441,548,3830
+2012-03-17,2012-03-01,2012,3,21.080847000000002,75.5833,7836,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,442,3155,4681
+2012-03-18,2012-03-01,2012,3,19.3725,81.0,5892,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,443,2207,3685
+2012-03-19,2012-03-01,2012,3,22.345000000000002,72.875,6153,Clear / partly cloudy,1,Working day,Recorded daily humidity,444,982,5171
+2012-03-20,2012-03-01,2012,3,22.994153,80.7917,6093,Clear / partly cloudy,1,Working day,Recorded daily humidity,445,1051,5042
+2012-03-21,2012-03-01,2012,3,21.798347,82.125,6230,Mist / cloudy,2,Working day,Recorded daily humidity,446,1122,5108
+2012-03-22,2012-03-01,2012,3,22.720847,83.125,6871,Clear / partly cloudy,1,Working day,Recorded daily humidity,447,1334,5537
+2012-03-23,2012-03-01,2012,3,24.668346999999997,69.41669999999999,8362,Mist / cloudy,2,Working day,Recorded daily humidity,448,2469,5893
+2012-03-24,2012-03-01,2012,3,20.6025,88.5417,3372,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,449,1033,2339
+2012-03-25,2012-03-01,2012,3,17.9375,88.0833,4996,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,450,1532,3464
+2012-03-26,2012-03-01,2012,3,18.279153,47.7917,5558,Clear / partly cloudy,1,Working day,Recorded daily humidity,451,795,4763
+2012-03-27,2012-03-01,2012,3,13.256653,28.999999999999996,5102,Clear / partly cloudy,1,Working day,Recorded daily humidity,452,531,4571
+2012-03-28,2012-03-01,2012,3,19.850847,48.125,5698,Clear / partly cloudy,1,Working day,Recorded daily humidity,453,674,5024
+2012-03-29,2012-03-01,2012,3,20.260847000000002,43.9167,6133,Clear / partly cloudy,1,Working day,Recorded daily humidity,454,834,5299
+2012-03-30,2012-03-01,2012,3,15.17,58.0833,5459,Mist / cloudy,2,Working day,Recorded daily humidity,455,796,4663
+2012-03-31,2012-03-01,2012,3,17.390847,73.83330000000001,6235,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,456,2301,3934
+2012-04-01,2012-04-01,2012,4,17.459153,67.625,6041,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,457,2347,3694
+2012-04-02,2012-04-01,2012,4,17.790433,50.4348,5936,Clear / partly cloudy,1,Working day,Recorded daily humidity,458,1208,4728
+2012-04-03,2012-04-01,2012,4,19.133347,39.6667,6772,Clear / partly cloudy,1,Working day,Recorded daily humidity,459,1348,5424
+2012-04-04,2012-04-01,2012,4,22.208347,46.958299999999994,6436,Clear / partly cloudy,1,Working day,Recorded daily humidity,460,1058,5378
+2012-04-05,2012-04-01,2012,4,17.835,37.416700000000006,6457,Clear / partly cloudy,1,Working day,Recorded daily humidity,461,1192,5265
+2012-04-06,2012-04-01,2012,4,16.536653,37.7083,6460,Clear / partly cloudy,1,Working day,Recorded daily humidity,462,1807,4653
+2012-04-07,2012-04-01,2012,4,17.9375,25.4167,6857,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,463,3252,3605
+2012-04-08,2012-04-01,2012,4,20.5,27.5833,5169,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,464,2230,2939
+2012-04-09,2012-04-01,2012,4,20.055847,31.75,5585,Clear / partly cloudy,1,Working day,Recorded daily humidity,465,905,4680
+2012-04-10,2012-04-01,2012,4,18.313347,43.5,5918,Clear / partly cloudy,1,Working day,Recorded daily humidity,466,819,5099
+2012-04-11,2012-04-01,2012,4,14.296536,46.9565,4862,Clear / partly cloudy,1,Working day,Recorded daily humidity,467,482,4380
+2012-04-12,2012-04-01,2012,4,16.2975,46.625,5409,Clear / partly cloudy,1,Working day,Recorded daily humidity,468,663,4746
+2012-04-13,2012-04-01,2012,4,18.142500000000002,40.8333,6398,Clear / partly cloudy,1,Working day,Recorded daily humidity,469,1252,5146
+2012-04-14,2012-04-01,2012,4,20.294999999999998,50.29169999999999,7460,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,470,2795,4665
+2012-04-15,2012-04-01,2012,4,24.873347,50.79169999999999,7132,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,471,2846,4286
+2012-04-16,2012-04-01,2012,4,27.230846999999997,56.166700000000006,6370,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,472,1198,5172
+2012-04-17,2012-04-01,2012,4,24.941653000000002,39.0417,6691,Clear / partly cloudy,1,Working day,Recorded daily humidity,473,989,5702
+2012-04-18,2012-04-01,2012,4,18.996653,56.9167,4367,Mist / cloudy,2,Working day,Recorded daily humidity,474,347,4020
+2012-04-19,2012-04-01,2012,4,20.431653,61.25000000000001,6565,Clear / partly cloudy,1,Working day,Recorded daily humidity,475,846,5719
+2012-04-20,2012-04-01,2012,4,21.593347,69.4583,7290,Clear / partly cloudy,1,Working day,Recorded daily humidity,476,1340,5950
+2012-04-21,2012-04-01,2012,4,23.369999999999997,68.2917,6624,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,477,2541,4083
+2012-04-22,2012-04-01,2012,4,16.263347,83.54169999999999,1027,Light rain / snow,3,Weekend / holiday,Recorded daily humidity,478,120,907
+2012-04-23,2012-04-01,2012,4,13.188346999999998,76.66669999999999,3214,Mist / cloudy,2,Working day,Recorded daily humidity,479,195,3019
+2012-04-24,2012-04-01,2012,4,16.946653,45.4167,5633,Clear / partly cloudy,1,Working day,Recorded daily humidity,480,518,5115
+2012-04-25,2012-04-01,2012,4,19.543347,42.7917,6196,Clear / partly cloudy,1,Working day,Recorded daily humidity,481,655,5541
+2012-04-26,2012-04-01,2012,4,20.431653,75.66669999999999,5026,Mist / cloudy,2,Working day,Recorded daily humidity,482,475,4551
+2012-04-27,2012-04-01,2012,4,18.7575,40.0833,6233,Clear / partly cloudy,1,Working day,Recorded daily humidity,483,1014,5219
+2012-04-28,2012-04-01,2012,4,15.443347,48.9583,4220,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,484,1120,3100
+2012-04-29,2012-04-01,2012,4,18.791653,58.7083,6304,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,485,2229,4075
+2012-04-30,2012-04-01,2012,4,19.030847,56.99999999999999,5572,Mist / cloudy,2,Working day,Recorded daily humidity,486,665,4907
+2012-05-01,2012-05-01,2012,5,25.146653,65.95830000000001,5740,Mist / cloudy,2,Working day,Recorded daily humidity,487,653,5087
+2012-05-02,2012-05-01,2012,5,23.130847,79.7083,6169,Clear / partly cloudy,1,Working day,Recorded daily humidity,488,667,5502
+2012-05-03,2012-05-01,2012,5,22.96,76.83330000000001,6421,Mist / cloudy,2,Working day,Recorded daily humidity,489,764,5657
+2012-05-04,2012-05-01,2012,5,25.7275,73.54169999999999,6296,Clear / partly cloudy,1,Working day,Recorded daily humidity,490,1069,5227
+2012-05-05,2012-05-01,2012,5,25.488346999999997,75.66669999999999,6883,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,491,2496,4387
+2012-05-06,2012-05-01,2012,5,23.0625,74.0,6359,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,492,2135,4224
+2012-05-07,2012-05-01,2012,5,22.037499999999998,66.41669999999999,6273,Mist / cloudy,2,Working day,Recorded daily humidity,493,1008,5265
+2012-05-08,2012-05-01,2012,5,23.848347,68.58330000000001,5728,Mist / cloudy,2,Working day,Recorded daily humidity,494,738,4990
+2012-05-09,2012-05-01,2012,5,23.575,74.4167,4717,Mist / cloudy,2,Working day,Recorded daily humidity,495,620,4097
+2012-05-10,2012-05-01,2012,5,20.739152999999998,55.2083,6572,Clear / partly cloudy,1,Working day,Recorded daily humidity,496,1026,5546
+2012-05-11,2012-05-01,2012,5,21.866653,36.0417,7030,Clear / partly cloudy,1,Working day,Recorded daily humidity,497,1319,5711
+2012-05-12,2012-05-01,2012,5,23.130847,48.0417,7429,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,498,2622,4807
+2012-05-13,2012-05-01,2012,5,25.1125,57.62500000000001,6118,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,499,2172,3946
+2012-05-14,2012-05-01,2012,5,23.506653,78.95830000000001,2843,Mist / cloudy,2,Working day,Recorded daily humidity,500,342,2501
+2012-05-15,2012-05-01,2012,5,25.078346999999997,79.45830000000001,5115,Mist / cloudy,2,Working day,Recorded daily humidity,501,625,4490
+2012-05-16,2012-05-01,2012,5,26.103347,69.7917,7424,Clear / partly cloudy,1,Working day,Recorded daily humidity,502,991,6433
+2012-05-17,2012-05-01,2012,5,24.326653,52.0,7384,Clear / partly cloudy,1,Working day,Recorded daily humidity,503,1242,6142
+2012-05-18,2012-05-01,2012,5,23.130847,52.33330000000001,7639,Clear / partly cloudy,1,Working day,Recorded daily humidity,504,1521,6118
+2012-05-19,2012-05-01,2012,5,24.599999999999998,45.625,8294,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,505,3410,4884
+2012-05-20,2012-05-01,2012,5,25.454152999999998,53.041700000000006,7129,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,506,2704,4425
+2012-05-21,2012-05-01,2012,5,24.531653,81.125,4359,Mist / cloudy,2,Working day,Recorded daily humidity,507,630,3729
+2012-05-22,2012-05-01,2012,5,25.215,76.5833,6073,Mist / cloudy,2,Working day,Recorded daily humidity,508,819,5254
+2012-05-23,2012-05-01,2012,5,25.488346999999997,77.45830000000001,5260,Mist / cloudy,2,Working day,Recorded daily humidity,509,766,4494
+2012-05-24,2012-05-01,2012,5,26.855,71.6667,6770,Clear / partly cloudy,1,Working day,Recorded daily humidity,510,1059,5711
+2012-05-25,2012-05-01,2012,5,27.880000000000003,74.70830000000001,6734,Clear / partly cloudy,1,Working day,Recorded daily humidity,511,1417,5317
+2012-05-26,2012-05-01,2012,5,28.392500000000002,73.25,6536,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,512,2855,3681
+2012-05-27,2012-05-01,2012,5,28.29,69.7083,6591,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,513,3283,3308
+2012-05-28,2012-05-01,2012,5,29.212500000000002,67.625,6043,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,514,2557,3486
+2012-05-29,2012-05-01,2012,5,29.622500000000002,68.45830000000001,5743,Clear / partly cloudy,1,Working day,Recorded daily humidity,515,880,4863
+2012-05-30,2012-05-01,2012,5,26.923347,67.0,6855,Mist / cloudy,2,Working day,Recorded daily humidity,516,745,6110
+2012-05-31,2012-05-01,2012,5,27.880000000000003,49.2917,7338,Clear / partly cloudy,1,Working day,Recorded daily humidity,517,1100,6238
+2012-06-01,2012-06-01,2012,6,26.820847,75.5417,4127,Mist / cloudy,2,Working day,Recorded daily humidity,518,533,3594
+2012-06-02,2012-06-01,2012,6,23.916653,54.9167,8120,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,519,2795,5325
+2012-06-03,2012-06-01,2012,6,24.7025,49.3333,7641,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,520,2494,5147
+2012-06-04,2012-06-01,2012,6,24.497500000000002,48.7083,6998,Clear / partly cloudy,1,Working day,Recorded daily humidity,521,1071,5927
+2012-06-05,2012-06-01,2012,6,22.174153,61.3333,7001,Mist / cloudy,2,Working day,Recorded daily humidity,522,968,6033
+2012-06-06,2012-06-01,2012,6,22.720847,61.12499999999999,7055,Clear / partly cloudy,1,Working day,Recorded daily humidity,523,1027,6028
+2012-06-07,2012-06-01,2012,6,24.7025,56.7083,7494,Clear / partly cloudy,1,Working day,Recorded daily humidity,524,1038,6456
+2012-06-08,2012-06-01,2012,6,26.615847000000002,46.791700000000006,7736,Clear / partly cloudy,1,Working day,Recorded daily humidity,525,1488,6248
+2012-06-09,2012-06-01,2012,6,29.144153000000003,43.7083,7498,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,526,2708,4790
+2012-06-10,2012-06-01,2012,6,29.793346999999997,53.833299999999994,6598,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,527,2224,4374
+2012-06-11,2012-06-01,2012,6,29.554153,58.791700000000006,6664,Mist / cloudy,2,Working day,Recorded daily humidity,528,1017,5647
+2012-06-12,2012-06-01,2012,6,26.786653,83.3333,4972,Mist / cloudy,2,Working day,Recorded daily humidity,529,477,4495
+2012-06-13,2012-06-01,2012,6,26.889153,58.2083,7421,Clear / partly cloudy,1,Working day,Recorded daily humidity,530,1173,6248
+2012-06-14,2012-06-01,2012,6,26.581653000000003,56.958299999999994,7363,Clear / partly cloudy,1,Working day,Recorded daily humidity,531,1180,6183
+2012-06-15,2012-06-01,2012,6,26.205847000000002,58.958299999999994,7665,Clear / partly cloudy,1,Working day,Recorded daily humidity,532,1563,6102
+2012-06-16,2012-06-01,2012,6,25.898346999999998,50.416700000000006,7702,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,533,2963,4739
+2012-06-17,2012-06-01,2012,6,24.2925,59.875,6978,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,534,2634,4344
+2012-06-18,2012-06-01,2012,6,23.301652999999998,77.79169999999999,5099,Mist / cloudy,2,Working day,Recorded daily humidity,535,653,4446
+2012-06-19,2012-06-01,2012,6,28.221653,69.0,6825,Clear / partly cloudy,1,Working day,Recorded daily humidity,536,968,5857
+2012-06-20,2012-06-01,2012,6,32.082499999999996,59.2083,6211,Clear / partly cloudy,1,Working day,Recorded daily humidity,537,872,5339
+2012-06-21,2012-06-01,2012,6,33.039153,56.7917,5905,Clear / partly cloudy,1,Working day,Recorded daily humidity,538,778,5127
+2012-06-22,2012-06-01,2012,6,31.877499999999998,57.375,5823,Clear / partly cloudy,1,Working day,Recorded daily humidity,539,964,4859
+2012-06-23,2012-06-01,2012,6,29.998347,53.4583,7458,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,540,2657,4801
+2012-06-24,2012-06-01,2012,6,30.476653000000002,47.9167,6891,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,541,2551,4340
+2012-06-25,2012-06-01,2012,6,29.349153,50.416700000000006,6779,Clear / partly cloudy,1,Working day,Recorded daily humidity,542,1139,5640
+2012-06-26,2012-06-01,2012,6,25.864152999999998,37.3333,7442,Clear / partly cloudy,1,Working day,Recorded daily humidity,543,1077,6365
+2012-06-27,2012-06-01,2012,6,28.5975,36.0,7335,Clear / partly cloudy,1,Working day,Recorded daily humidity,544,1077,6258
+2012-06-28,2012-06-01,2012,6,30.715847,42.25,6879,Clear / partly cloudy,1,Working day,Recorded daily humidity,545,921,5958
+2012-06-29,2012-06-01,2012,6,34.200847,48.875,5463,Clear / partly cloudy,1,Working day,Recorded daily humidity,546,829,4634
+2012-06-30,2012-06-01,2012,6,31.365000000000002,60.12499999999999,5687,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,547,1455,4232
+2012-07-01,2012-07-01,2012,7,33.449153,51.87500000000001,5531,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,548,1421,4110
+2012-07-02,2012-07-01,2012,7,32.048347,44.7083,6227,Clear / partly cloudy,1,Working day,Recorded daily humidity,549,904,5323
+2012-07-03,2012-07-01,2012,7,32.014153,49.2083,6660,Clear / partly cloudy,1,Working day,Recorded daily humidity,550,1052,5608
+2012-07-04,2012-07-01,2012,7,32.355847,53.87499999999999,7403,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,551,2562,4841
+2012-07-05,2012-07-01,2012,7,33.9275,45.7917,6241,Clear / partly cloudy,1,Working day,Recorded daily humidity,552,1405,4836
+2012-07-06,2012-07-01,2012,7,33.961653,45.0833,6207,Clear / partly cloudy,1,Working day,Recorded daily humidity,553,1366,4841
+2012-07-07,2012-07-01,2012,7,35.328347,49.2083,4840,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,554,1448,3392
+2012-07-08,2012-07-01,2012,7,33.722500000000004,57.375,4672,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,555,1203,3469
+2012-07-09,2012-07-01,2012,7,29.144153000000003,68.3333,6569,Mist / cloudy,2,Working day,Recorded daily humidity,556,998,5571
+2012-07-10,2012-07-01,2012,7,29.554153,66.75,6290,Mist / cloudy,2,Working day,Recorded daily humidity,557,954,5336
+2012-07-11,2012-07-01,2012,7,29.383347,63.3333,7264,Clear / partly cloudy,1,Working day,Recorded daily humidity,558,975,6289
+2012-07-12,2012-07-01,2012,7,29.349153,52.9583,7446,Clear / partly cloudy,1,Working day,Recorded daily humidity,559,1032,6414
+2012-07-13,2012-07-01,2012,7,29.998347,48.5833,7499,Mist / cloudy,2,Working day,Recorded daily humidity,560,1511,5988
+2012-07-14,2012-07-01,2012,7,28.836653,69.91669999999999,6969,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,561,2355,4614
+2012-07-15,2012-07-01,2012,7,30.579152999999998,71.7917,6031,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,562,1920,4111
+2012-07-16,2012-07-01,2012,7,31.296653000000003,64.5,6830,Clear / partly cloudy,1,Working day,Recorded daily humidity,563,1088,5742
+2012-07-17,2012-07-01,2012,7,33.551653,50.583299999999994,6786,Clear / partly cloudy,1,Working day,Recorded daily humidity,564,921,5865
+2012-07-18,2012-07-01,2012,7,32.526652999999996,57.7083,5713,Clear / partly cloudy,1,Working day,Recorded daily humidity,565,799,4914
+2012-07-19,2012-07-01,2012,7,31.57,60.0417,6591,Clear / partly cloudy,1,Working day,Recorded daily humidity,566,888,5703
+2012-07-20,2012-07-01,2012,7,27.299153,84.4167,5870,Mist / cloudy,2,Working day,Recorded daily humidity,567,747,5123
+2012-07-21,2012-07-01,2012,7,24.429153,86.5417,4459,Light rain / snow,3,Weekend / holiday,Recorded daily humidity,568,1264,3195
+2012-07-22,2012-07-01,2012,7,27.3675,76.25,7410,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,569,2544,4866
+2012-07-23,2012-07-01,2012,7,30.408347,69.41669999999999,6966,Clear / partly cloudy,1,Working day,Recorded daily humidity,570,1135,5831
+2012-07-24,2012-07-01,2012,7,30.784153,65.5,7592,Clear / partly cloudy,1,Working day,Recorded daily humidity,571,1140,6452
+2012-07-25,2012-07-01,2012,7,29.690847,45.0,8173,Clear / partly cloudy,1,Working day,Recorded daily humidity,572,1383,6790
+2012-07-26,2012-07-01,2012,7,31.843347,59.66669999999999,6861,Clear / partly cloudy,1,Working day,Recorded daily humidity,573,1036,5825
+2012-07-27,2012-07-01,2012,7,32.048347,59.458299999999994,6904,Clear / partly cloudy,1,Working day,Recorded daily humidity,574,1259,5645
+2012-07-28,2012-07-01,2012,7,30.989152999999998,61.3333,6685,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,575,2234,4451
+2012-07-29,2012-07-01,2012,7,29.588347,62.375,6597,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,576,2153,4444
+2012-07-30,2012-07-01,2012,7,29.964153,66.875,7105,Clear / partly cloudy,1,Working day,Recorded daily humidity,577,1040,6065
+2012-07-31,2012-07-01,2012,7,29.246653,70.41669999999999,7216,Clear / partly cloudy,1,Working day,Recorded daily humidity,578,968,6248
+2012-08-01,2012-08-01,2012,8,29.4175,67.75,7580,Clear / partly cloudy,1,Working day,Recorded daily humidity,579,1074,6506
+2012-08-02,2012-08-01,2012,8,30.8525,65.95830000000001,7261,Clear / partly cloudy,1,Working day,Recorded daily humidity,580,983,6278
+2012-08-03,2012-08-01,2012,8,31.399153,64.25,7175,Mist / cloudy,2,Working day,Recorded daily humidity,581,1328,5847
+2012-08-04,2012-08-01,2012,8,32.526652999999996,61.3333,6824,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,582,2345,4479
+2012-08-05,2012-08-01,2012,8,31.535847,65.25,5464,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,583,1707,3757
+2012-08-06,2012-08-01,2012,8,30.8525,65.4167,7013,Mist / cloudy,2,Working day,Recorded daily humidity,584,1233,5780
+2012-08-07,2012-08-01,2012,8,30.169152999999998,70.375,7273,Mist / cloudy,2,Working day,Recorded daily humidity,585,1278,5995
+2012-08-08,2012-08-01,2012,8,30.75,67.29169999999999,7534,Mist / cloudy,2,Working day,Recorded daily humidity,586,1263,6271
+2012-08-09,2012-08-01,2012,8,30.989152999999998,62.0417,7286,Clear / partly cloudy,1,Working day,Recorded daily humidity,587,1196,6090
+2012-08-10,2012-08-01,2012,8,29.349153,71.58330000000001,5786,Mist / cloudy,2,Working day,Recorded daily humidity,588,1065,4721
+2012-08-11,2012-08-01,2012,8,28.392500000000002,73.2917,6299,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,589,2247,4052
+2012-08-12,2012-08-01,2012,8,28.734153000000003,53.041700000000006,6544,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,590,2182,4362
+2012-08-13,2012-08-01,2012,8,29.554153,54.541700000000006,6883,Clear / partly cloudy,1,Working day,Recorded daily humidity,591,1207,5676
+2012-08-14,2012-08-01,2012,8,29.793346999999997,68.6667,6784,Clear / partly cloudy,1,Working day,Recorded daily humidity,592,1128,5656
+2012-08-15,2012-08-01,2012,8,28.973347,61.9583,7347,Clear / partly cloudy,1,Working day,Recorded daily humidity,593,1198,6149
+2012-08-16,2012-08-01,2012,8,29.485847,51.916700000000006,7605,Clear / partly cloudy,1,Working day,Recorded daily humidity,594,1338,6267
+2012-08-17,2012-08-01,2012,8,29.656653,57.0833,7148,Clear / partly cloudy,1,Working day,Recorded daily humidity,595,1483,5665
+2012-08-18,2012-08-01,2012,8,27.811653,60.3333,7865,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,596,2827,5038
+2012-08-19,2012-08-01,2012,8,26.069153,71.1667,4549,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,597,1208,3341
+2012-08-20,2012-08-01,2012,8,26.069153,73.4167,6530,Mist / cloudy,2,Working day,Recorded daily humidity,598,1026,5504
+2012-08-21,2012-08-01,2012,8,26.615847000000002,67.375,7006,Clear / partly cloudy,1,Working day,Recorded daily humidity,599,1081,5925
+2012-08-22,2012-08-01,2012,8,27.3675,67.7083,7375,Clear / partly cloudy,1,Working day,Recorded daily humidity,600,1094,6281
+2012-08-23,2012-08-01,2012,8,28.529153,63.5833,7765,Clear / partly cloudy,1,Working day,Recorded daily humidity,601,1363,6402
+2012-08-24,2012-08-01,2012,8,28.802500000000002,61.5,7582,Mist / cloudy,2,Working day,Recorded daily humidity,602,1325,6257
+2012-08-25,2012-08-01,2012,8,27.128347,71.2917,6053,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,603,1829,4224
+2012-08-26,2012-08-01,2012,8,26.786653,84.5833,5255,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,604,1483,3772
+2012-08-27,2012-08-01,2012,8,28.836653,73.04169999999999,6917,Clear / partly cloudy,1,Working day,Recorded daily humidity,605,989,5928
+2012-08-28,2012-08-01,2012,8,29.861653,62.0,7040,Clear / partly cloudy,1,Working day,Recorded daily humidity,606,935,6105
+2012-08-29,2012-08-01,2012,8,28.085,55.2083,7697,Clear / partly cloudy,1,Working day,Recorded daily humidity,607,1177,6520
+2012-08-30,2012-08-01,2012,8,28.973347,59.0417,7713,Clear / partly cloudy,1,Working day,Recorded daily humidity,608,1172,6541
+2012-08-31,2012-08-01,2012,8,31.330847000000002,58.75,7350,Clear / partly cloudy,1,Working day,Recorded daily humidity,609,1433,5917
+2012-09-01,2012-09-01,2012,9,30.886653000000003,63.8333,6140,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,610,2352,3788
+2012-09-02,2012-09-01,2012,9,28.563347,81.5,5810,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,611,2613,3197
+2012-09-03,2012-09-01,2012,9,29.0075,79.0833,6034,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,612,1965,4069
+2012-09-04,2012-09-01,2012,9,29.759152999999998,75.5,6864,Clear / partly cloudy,1,Working day,Recorded daily humidity,613,867,5997
+2012-09-05,2012-09-01,2012,9,30.203346999999997,74.125,7112,Clear / partly cloudy,1,Working day,Recorded daily humidity,614,832,6280
+2012-09-06,2012-09-01,2012,9,28.563347,81.0417,6203,Mist / cloudy,2,Working day,Recorded daily humidity,615,611,5592
+2012-09-07,2012-09-01,2012,9,28.836653,73.625,7504,Clear / partly cloudy,1,Working day,Recorded daily humidity,616,1045,6459
+2012-09-08,2012-09-01,2012,9,27.025847,79.91669999999999,5976,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,617,1557,4419
+2012-09-09,2012-09-01,2012,9,25.009999999999998,54.75,8227,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,618,2570,5657
+2012-09-10,2012-09-01,2012,9,23.916653,50.375,7525,Clear / partly cloudy,1,Working day,Recorded daily humidity,619,1118,6407
+2012-09-11,2012-09-01,2012,9,23.677500000000002,52.0,7767,Clear / partly cloudy,1,Working day,Recorded daily humidity,620,1070,6697
+2012-09-12,2012-09-01,2012,9,24.565847,57.7083,7870,Clear / partly cloudy,1,Working day,Recorded daily humidity,621,1050,6820
+2012-09-13,2012-09-01,2012,9,25.1125,63.708299999999994,7804,Clear / partly cloudy,1,Working day,Recorded daily humidity,622,1054,6750
+2012-09-14,2012-09-01,2012,9,25.966653,67.25,8009,Clear / partly cloudy,1,Working day,Recorded daily humidity,623,1379,6630
+2012-09-15,2012-09-01,2012,9,24.941653000000002,50.1667,8714,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,624,3160,5554
+2012-09-16,2012-09-01,2012,9,23.779999999999998,56.99999999999999,7333,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,625,2166,5167
+2012-09-17,2012-09-01,2012,9,23.814153,73.4583,6869,Mist / cloudy,2,Working day,Recorded daily humidity,626,1022,5847
+2012-09-18,2012-09-01,2012,9,25.556653,87.25,4073,Mist / cloudy,2,Working day,Recorded daily humidity,627,371,3702
+2012-09-19,2012-09-01,2012,9,22.6525,53.6667,7591,Clear / partly cloudy,1,Working day,Recorded daily humidity,628,788,6803
+2012-09-20,2012-09-01,2012,9,22.413347,61.8333,7720,Clear / partly cloudy,1,Working day,Recorded daily humidity,629,939,6781
+2012-09-21,2012-09-01,2012,9,24.565847,66.875,8167,Clear / partly cloudy,1,Working day,Recorded daily humidity,630,1250,6917
+2012-09-22,2012-09-01,2012,9,26.650000000000002,64.6667,8395,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,631,2512,5883
+2012-09-23,2012-09-01,2012,9,21.695847,46.7083,7907,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,632,2454,5453
+2012-09-24,2012-09-01,2012,9,21.080847000000002,49.2917,7436,Clear / partly cloudy,1,Working day,Recorded daily humidity,633,1001,6435
+2012-09-25,2012-09-01,2012,9,22.55,56.99999999999999,7538,Clear / partly cloudy,1,Working day,Recorded daily humidity,634,845,6693
+2012-09-26,2012-09-01,2012,9,26.035,63.083299999999994,7733,Clear / partly cloudy,1,Working day,Recorded daily humidity,635,787,6946
+2012-09-27,2012-09-01,2012,9,26.650000000000002,69.08330000000001,7393,Mist / cloudy,2,Working day,Recorded daily humidity,636,751,6642
+2012-09-28,2012-09-01,2012,9,25.385847000000002,69.0,7415,Mist / cloudy,2,Working day,Recorded daily humidity,637,1045,6370
+2012-09-29,2012-09-01,2012,9,22.2425,54.2917,8555,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,638,2589,5966
+2012-09-30,2012-09-01,2012,9,21.593347,58.3333,6889,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,639,2015,4874
+2012-10-01,2012-10-01,2012,10,21.354153,64.9167,6778,Mist / cloudy,2,Working day,Recorded daily humidity,640,763,6015
+2012-10-02,2012-10-01,2012,10,24.224153,87.16669999999999,4639,Light rain / snow,3,Working day,Recorded daily humidity,641,315,4324
+2012-10-03,2012-10-01,2012,10,26.9575,79.375,7572,Mist / cloudy,2,Working day,Recorded daily humidity,642,728,6844
+2012-10-04,2012-10-01,2012,10,26.9575,72.2917,7328,Mist / cloudy,2,Working day,Recorded daily humidity,643,891,6437
+2012-10-05,2012-10-01,2012,10,25.215,62.74999999999999,8156,Clear / partly cloudy,1,Working day,Recorded daily humidity,644,1516,6640
+2012-10-06,2012-10-01,2012,10,22.720847,66.41669999999999,7965,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,645,3031,4934
+2012-10-07,2012-10-01,2012,10,17.049153,70.8333,3510,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,646,781,2729
+2012-10-08,2012-10-01,2012,10,15.716652999999999,70.9583,5478,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,647,874,4604
+2012-10-09,2012-10-01,2012,10,18.313347,76.16669999999999,6392,Mist / cloudy,2,Working day,Recorded daily humidity,648,601,5791
+2012-10-10,2012-10-01,2012,10,21.080847000000002,63.083299999999994,7691,Clear / partly cloudy,1,Working day,Recorded daily humidity,649,780,6911
+2012-10-11,2012-10-01,2012,10,17.835,46.3333,7570,Clear / partly cloudy,1,Working day,Recorded daily humidity,650,834,6736
+2012-10-12,2012-10-01,2012,10,17.9375,53.91669999999999,7282,Clear / partly cloudy,1,Working day,Recorded daily humidity,651,1060,6222
+2012-10-13,2012-10-01,2012,10,16.126653,49.4583,7109,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,652,2252,4857
+2012-10-14,2012-10-01,2012,10,21.388347,64.0417,6639,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,653,2080,4559
+2012-10-15,2012-10-01,2012,10,23.028347,70.75,5875,Mist / cloudy,2,Working day,Recorded daily humidity,654,760,5115
+2012-10-16,2012-10-01,2012,10,19.201653,55.833299999999994,7534,Clear / partly cloudy,1,Working day,Recorded daily humidity,655,922,6612
+2012-10-17,2012-10-01,2012,10,18.689153,69.2917,7461,Clear / partly cloudy,1,Working day,Recorded daily humidity,656,979,6482
+2012-10-18,2012-10-01,2012,10,21.4225,72.8333,7509,Mist / cloudy,2,Working day,Recorded daily humidity,657,1008,6501
+2012-10-19,2012-10-01,2012,10,23.096653,81.5,5424,Mist / cloudy,2,Working day,Recorded daily humidity,658,753,4671
+2012-10-20,2012-10-01,2012,10,19.850847,57.2917,8090,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,659,2806,5284
+2012-10-21,2012-10-01,2012,10,19.030847,51.0,6824,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,660,2132,4692
+2012-10-22,2012-10-01,2012,10,19.9875,56.833299999999994,7058,Clear / partly cloudy,1,Working day,Recorded daily humidity,661,830,6228
+2012-10-23,2012-10-01,2012,10,22.310847,64.16669999999999,7466,Clear / partly cloudy,1,Working day,Recorded daily humidity,662,841,6625
+2012-10-24,2012-10-01,2012,10,24.087500000000002,63.625,7693,Clear / partly cloudy,1,Working day,Recorded daily humidity,663,795,6898
+2012-10-25,2012-10-01,2012,10,22.55,80.0417,7359,Mist / cloudy,2,Working day,Recorded daily humidity,664,875,6484
+2012-10-26,2012-10-01,2012,10,22.379153000000002,80.7083,7444,Mist / cloudy,2,Working day,Recorded daily humidity,665,1182,6262
+2012-10-27,2012-10-01,2012,10,21.73,72.0,7852,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,666,2643,5209
+2012-10-28,2012-10-01,2012,10,19.5775,69.4583,4459,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,667,998,3461
+2012-10-29,2012-10-01,2012,10,18.04,88.0,22,Light rain / snow,3,Working day,Recorded daily humidity,668,2,20
+2012-10-30,2012-10-01,2012,10,13.045462,82.5455,1096,Mist / cloudy,2,Working day,Recorded daily humidity,669,87,1009
+2012-10-31,2012-10-01,2012,10,14.657499999999999,66.6667,5566,Mist / cloudy,2,Working day,Recorded daily humidity,670,419,5147
+2012-11-01,2012-11-01,2012,11,14.999153000000002,58.166700000000006,5986,Mist / cloudy,2,Working day,Recorded daily humidity,671,466,5520
+2012-11-02,2012-11-01,2012,11,14.555,52.208299999999994,5847,Clear / partly cloudy,1,Working day,Recorded daily humidity,672,618,5229
+2012-11-03,2012-11-01,2012,11,14.076653,49.125,5138,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,673,1029,4109
+2012-11-04,2012-11-01,2012,11,13.359153,53.2917,5107,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,674,1201,3906
+2012-11-05,2012-11-01,2012,11,13.085847,49.416700000000006,5259,Clear / partly cloudy,1,Working day,Recorded daily humidity,675,378,4881
+2012-11-06,2012-11-01,2012,11,11.514153,56.7083,5686,Clear / partly cloudy,1,Working day,Recorded daily humidity,676,466,5220
+2012-11-07,2012-11-01,2012,11,12.129153,54.75,5035,Mist / cloudy,2,Working day,Recorded daily humidity,677,326,4709
+2012-11-08,2012-11-01,2012,11,14.439134,33.3478,5315,Clear / partly cloudy,1,Working day,Recorded daily humidity,678,340,4975
+2012-11-09,2012-11-01,2012,11,14.828347,54.0833,5992,Clear / partly cloudy,1,Working day,Recorded daily humidity,679,709,5283
+2012-11-10,2012-11-01,2012,11,15.955846999999999,64.5417,6536,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,680,2090,4446
+2012-11-11,2012-11-01,2012,11,17.254153000000002,65.91669999999999,6852,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,681,2290,4562
+2012-11-12,2012-11-01,2012,11,19.884999999999998,74.16669999999999,6269,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,682,1097,5172
+2012-11-13,2012-11-01,2012,11,14.076653,66.29169999999999,4094,Mist / cloudy,2,Working day,Recorded daily humidity,683,327,3767
+2012-11-14,2012-11-01,2012,11,11.855847,55.2083,5495,Clear / partly cloudy,1,Working day,Recorded daily humidity,684,373,5122
+2012-11-15,2012-11-01,2012,11,13.188346999999998,62.0417,5445,Mist / cloudy,2,Working day,Recorded daily humidity,685,320,5125
+2012-11-16,2012-11-01,2012,11,14.145,52.4583,5698,Clear / partly cloudy,1,Working day,Recorded daily humidity,686,484,5214
+2012-11-17,2012-11-01,2012,11,13.325000000000001,54.541700000000006,5629,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,687,1313,4316
+2012-11-18,2012-11-01,2012,11,14.0425,69.2917,4669,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,688,922,3747
+2012-11-19,2012-11-01,2012,11,15.614152999999998,62.3333,5499,Mist / cloudy,2,Working day,Recorded daily humidity,689,449,5050
+2012-11-20,2012-11-01,2012,11,15.340847000000002,68.5,5634,Mist / cloudy,2,Working day,Recorded daily humidity,690,534,5100
+2012-11-21,2012-11-01,2012,11,14.486653,61.375,5146,Clear / partly cloudy,1,Working day,Recorded daily humidity,691,615,4531
+2012-11-22,2012-11-01,2012,11,13.940000000000001,58.0417,2425,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,692,955,1470
+2012-11-23,2012-11-01,2012,11,15.101653,56.875,3910,Clear / partly cloudy,1,Working day,Recorded daily humidity,693,1603,2307
+2012-11-24,2012-11-01,2012,11,11.411653,40.4583,2277,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,694,532,1745
+2012-11-25,2012-11-01,2012,11,10.079153,46.8333,2424,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,695,309,2115
+2012-11-26,2012-11-01,2012,11,12.846652999999998,53.541700000000006,5087,Clear / partly cloudy,1,Working day,Recorded daily humidity,696,337,4750
+2012-11-27,2012-11-01,2012,11,11.958347,78.6667,3959,Mist / cloudy,2,Working day,Recorded daily humidity,697,123,3836
+2012-11-28,2012-11-01,2012,11,12.163347,50.625,5260,Clear / partly cloudy,1,Working day,Recorded daily humidity,698,198,5062
+2012-11-29,2012-11-01,2012,11,11.51567,55.565200000000004,5323,Clear / partly cloudy,1,Working day,Recorded daily humidity,699,243,5080
+2012-11-30,2012-11-01,2012,11,12.231653000000001,64.95830000000001,5668,Clear / partly cloudy,1,Working day,Recorded daily humidity,700,362,5306
+2012-12-01,2012-12-01,2012,12,12.231653000000001,80.6667,5191,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,701,951,4240
+2012-12-02,2012-12-01,2012,12,14.247499999999999,82.3333,4649,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,702,892,3757
+2012-12-03,2012-12-01,2012,12,18.552500000000002,76.75,6234,Clear / partly cloudy,1,Working day,Recorded daily humidity,703,555,5679
+2012-12-04,2012-12-01,2012,12,19.509153,73.375,6606,Clear / partly cloudy,1,Working day,Recorded daily humidity,704,551,6055
+2012-12-05,2012-12-01,2012,12,17.971653,48.5,5729,Clear / partly cloudy,1,Working day,Recorded daily humidity,705,331,5398
+2012-12-06,2012-12-01,2012,12,10.489152999999998,50.875,5375,Clear / partly cloudy,1,Working day,Recorded daily humidity,706,340,5035
+2012-12-07,2012-12-01,2012,12,13.154152999999999,76.4167,5008,Mist / cloudy,2,Working day,Recorded daily humidity,707,349,4659
+2012-12-08,2012-12-01,2012,12,15.648347,91.125,5582,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,708,1153,4429
+2012-12-09,2012-12-01,2012,12,15.750846999999998,90.5417,3228,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,709,441,2787
+2012-12-10,2012-12-01,2012,12,17.869153,92.5,5170,Mist / cloudy,2,Working day,Recorded daily humidity,710,329,4841
+2012-12-11,2012-12-01,2012,12,14.486653,59.66669999999999,5501,Mist / cloudy,2,Working day,Recorded daily humidity,711,282,5219
+2012-12-12,2012-12-01,2012,12,12.1975,53.833299999999994,5319,Mist / cloudy,2,Working day,Recorded daily humidity,712,310,5009
+2012-12-13,2012-12-01,2012,12,12.129153,48.5833,5532,Clear / partly cloudy,1,Working day,Recorded daily humidity,713,425,5107
+2012-12-14,2012-12-01,2012,12,11.548347,64.29169999999999,5611,Clear / partly cloudy,1,Working day,Recorded daily humidity,714,429,5182
+2012-12-15,2012-12-01,2012,12,13.290847,65.0417,5047,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,715,767,4280
+2012-12-16,2012-12-01,2012,12,14.862499999999999,83.875,3786,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,716,538,3248
+2012-12-17,2012-12-01,2012,12,16.126653,90.7083,4585,Mist / cloudy,2,Working day,Recorded daily humidity,717,212,4373
+2012-12-18,2012-12-01,2012,12,16.844153,66.625,5557,Clear / partly cloudy,1,Working day,Recorded daily humidity,718,433,5124
+2012-12-19,2012-12-01,2012,12,13.6325,62.5417,5267,Clear / partly cloudy,1,Working day,Recorded daily humidity,719,333,4934
+2012-12-20,2012-12-01,2012,12,13.530000000000001,66.79169999999999,4128,Mist / cloudy,2,Working day,Recorded daily humidity,720,314,3814
+2012-12-21,2012-12-01,2012,12,13.393346999999999,55.666700000000006,3623,Mist / cloudy,2,Working day,Recorded daily humidity,721,221,3402
+2012-12-22,2012-12-01,2012,12,10.899153,44.125,1749,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,722,205,1544
+2012-12-23,2012-12-01,2012,12,10.079153,51.5417,1787,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,723,408,1379
+2012-12-24,2012-12-01,2012,12,9.483464,79.1304,920,Mist / cloudy,2,Working day,Recorded daily humidity,724,174,746
+2012-12-25,2012-12-01,2012,12,11.943464,73.47829999999999,1013,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,725,440,573
+2012-12-26,2012-12-01,2012,12,9.976652999999999,82.3333,441,Light rain / snow,3,Working day,Recorded daily humidity,726,9,432
+2012-12-27,2012-12-01,2012,12,10.420846999999998,65.29169999999999,2114,Mist / cloudy,2,Working day,Recorded daily humidity,727,247,1867
+2012-12-28,2012-12-01,2012,12,10.386652999999999,59.0,3095,Mist / cloudy,2,Working day,Recorded daily humidity,728,644,2451
+2012-12-29,2012-12-01,2012,12,10.386652999999999,75.29169999999999,1341,Mist / cloudy,2,Weekend / holiday,Recorded daily humidity,729,159,1182
+2012-12-30,2012-12-01,2012,12,10.489152999999998,48.3333,1796,Clear / partly cloudy,1,Weekend / holiday,Recorded daily humidity,730,364,1432
+2012-12-31,2012-12-01,2012,12,8.849153,57.75,2729,Mist / cloudy,2,Working day,Recorded daily humidity,731,439,2290
