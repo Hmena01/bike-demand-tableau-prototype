@@ -30,7 +30,17 @@ All views use the same daily records. Monthly and group values are **mean rental
 - **Multiple groups:** Command-click on Mac or Ctrl-click on Windows to select additional groups.
 - **Hover:** monthly marks show month, original year, mean and n; daily marks show date, rentals, temperature, humidity, weather and day type; group bars show mean and n.
 
-The calendar stays fixed under filtering. Every observed month remains visible as a point, including isolated months. Lines break when consecutive observed months are separated by missing months. No matching days produces a gap, not an invented zero. For example, rain/snow weekends contain only five days across both years; their monthly points occupy the correct February, April, July and October positions.
+The calendar stays fixed under filtering. Points represent observed monthly means; lines connect those points within each year, including across months without matching days. A connecting segment does not represent an observed value for an intervening month. No missing month is assigned zero or imputed. For example, rain/snow weekends contain only five days across both years; their points occupy the correct February, April, July and October positions.
+
+“Weekend / holiday” combines Saturdays, Sundays and source-flagged holidays. An independent check of all original dates found 210 weekend days and 21 additional weekday holidays, matching all 231 nonworking records. Rentals count trips across the system, not distinct riders or the number of days. Full-period daily means and sample counts are:
+
+| Weather | Working day: mean (days) | Weekend / holiday: mean (days) |
+| --- | ---: | ---: |
+| Clear / partly cloudy | 5,024 (307) | 4,587 (156) |
+| Mist / cloudy | 4,075 (177) | 3,937 (70) |
+| Light rain / snow | 1,800 (16) | 1,815 (5) |
+
+The rain/snow weekend mean rests on just five observations and should not be presented as a reliable weekend effect. Every original `cnt` value also equals `casual + registered`.
 
 ## Data preparation and provenance
 
@@ -52,25 +62,25 @@ To regenerate only the preparation outputs, install `openpyxl` in Python 3 and r
 | Month, temporal interval | Fixed continuous calendar x position; separate original year series | Replaces the proposed chronological sequence with aligned seasonal comparison; filtering preserves spacing |
 | Daily rentals / mean daily rentals, quantitative ratio | Scatter/line y position; zero-based bar length | Shared 0–10,000 rental bounds; six bar means directly labeled |
 | Temperature, quantitative interval | Continuous scatter x position, 0–40 °C | As proposed |
-| Humidity, quantitative ratio | Circle size, fixed 0–100 legend, exact percentage in hover | Secondary narrow size range; small visible minimum for the recorded zero. Exact proportional area calibration is not claimed |
+| Humidity, quantitative ratio, grouped into ordered bands | Three ordered circle sizes: Drier (<50%), Moderate (50–70%), More humid (>70%); exact percentage in hover | Replaces the subtle continuous size scale with readable bands and a visible minimum. These display thresholds are not scientific classifications. Size indicates order, not proportional area; Tableau omits absent bands from the filtered legend |
 | Weather, ordinal categories | Ordered rows and teal lightness | Clear `#6F9E9E`, mist `#3D7A7C`, rain/snow `#155E63`; removed from scatter color |
 | Day type, nominal | Paired labeled bar rows | Replaces proposed circle/triangle shapes; working day precedes weekend/holiday |
 | Year, nominal comparison | Slate 2011 and teal 2012 lines, compact legend | Makes the between-year comparison explicit |
 
-The monthly display uses `MAKEDATE(2000, [MonthNumber], 1)` only to align the calendar; the original 2011/2012 year remains on Color and in hover. A table calculation detects nonconsecutive observed month numbers within each year and creates separate line segments. It changes drawing continuity without adding or altering daily records.
+The monthly display uses `MAKEDATE(2000, [MonthNumber], 1)` only to align the calendar; the original 2011/2012 year remains on Color and in hover. The earlier line-segment table calculation has been removed from the Marks card so sparse selections retain connected observed-month lines. No daily record changes. The scatter view is 310 pixels high, increased from 250, with the monthly panel shortened to make room.
 
 The approved typography follows the student's latest AMD/NVIDIA dashboard reference: **Georgia 28 pt regular** headline and **Trebuchet MS** supporting text, charts and tooltips. This replaces the proposal's Arial-only styling. Filled scatter circles and paired bars replace the earlier mixed shapes and group dots. Sample sizes stay in hover to keep the dashboard uncluttered.
 
 ## Verification and class submission
 
-Native checks covered all three views, all 731 daily marks, each weather/weekend selection, the shared Weekend/holiday filter, the 2012 weekend subset, and the three-day 2012 rain/weekend subset. Monthly tooltips preserve the original year and correct sample size. The humidity legend stays fixed and fits completely inside the dashboard. The saved default has all filters and chart selections cleared.
+Native checks covered all three views, all 731 daily marks, each weather/weekend selection, the shared Weekend/holiday filter, the 2012 weekend subset, and the three-day 2012 rain/weekend subset. The latest revision additionally verified the five-day rain/weekend selection, connected monthly lines, enlarged scatter view, and fully displayed humidity-band labels. Monthly tooltips preserve the original year and correct sample size. The humidity legend fits inside the dashboard. The saved default has all filters and chart selections cleared.
 
 The two submission images are:
 
 1. [Overview](Screenshots/01_overview.png): native Tableau export, 2880 × 1800.
 2. [Linked selection](Screenshots/02_linked_selection.png): actual published dashboard in a fresh browser session, showing selection and hover details.
 
-For a live demo, start with all data, choose Weekend/holiday, compare the three views, restore All, and select the mist/cloudy weekend row. Its 70 matching days update both target views; the missing June 2012 monthly mean remains a clearly explained gap. Then clear the selection.
+For a live demo, start with all data, choose Weekend/holiday, compare the three views, restore All, and select the mist/cloudy weekend row. Its 70 matching days update both target views. Point out that the monthly lines join observed means, and hovering a point reveals its actual sample size. Then clear the selection.
 
 **Peer feedback remains pending the real in-class session.** Attend and demonstrate the dashboard, then complete `feedback_log.txt` with peer names, main issues raised, and specific planned changes, within one-half page. The current file is a clearly marked template; it is not evidence of attendance or collected feedback.
 
