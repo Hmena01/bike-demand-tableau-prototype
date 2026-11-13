@@ -92,3 +92,20 @@ Selecting the rain/weekend bar updated both target charts. Clicking blank plot s
 Raz and Maria's feedback and the color/shape changes already made are recorded in the [feedback log](../feedback_log.txt). Earlier screenshots remain available alongside the revised screenshots in the [project README](../README.md#screenshots-and-feedback).
 
 Full reciprocal brushing, formal accessibility tuning, narrower-screen layouts and human usability testing remain final-submission work under the supplied rubric.
+
+## My own reflection and plan for version 3
+
+This direction comes from my own reflection on the project's purpose, separately from Raz and Maria's color and year-distinction feedback. I noticed that I can do more with the data to develop one clearer overall insight across the views.
+
+Further aggregation is feasible with the existing records. The prepared data already includes year, month, weather, day type and separate casual/registered rental counts. These support grouped daily averages and a rider-type breakdown without adding another dataset. An independent calculation from the original daily CSV gives:
+
+| Year | Observed days | Mean rentals per day |
+| --- | ---: | ---: |
+| 2011 | 365 | 3,405.76 |
+| 2012 | 366 | 5,599.93 |
+
+Mean daily rentals increased **64.4%** between the two years. This is a possible central finding for version 3: connect the views around demand growth, then examine how the descriptive patterns differ by month, weather, day type and rider type. Using daily means accounts for the different number of days in each year; grouped comparisons should retain their observed-day counts.
+
+If another source adds useful context, [UCI also provides hourly records for 2011–2012](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset), and [Capital Bikeshare publishes trip-history data](https://capitalbikeshare.com/system-data). Those records could be aggregated to a suitable comparison level after checking date coverage, definitions and data grain. They add detail from which summaries can be calculated; another dataset is not required simply to aggregate the current records.
+
+These are planned analytical improvements. No additional source or version-3 dashboard has been implemented as part of this feasibility check.

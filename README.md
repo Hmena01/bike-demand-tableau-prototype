@@ -51,11 +51,35 @@ Monthly lines connect observed means, including across months without matching d
 
 ## Screenshots and feedback
 
-The two current submission images are the [revised overview](Screenshots/03_revised_overview.png) and [revised linked selection](Screenshots/04_revised_linked_selection.png).
+### Before feedback → after feedback
+
+Raz and Maria said the sequential colors were not distinct enough and the monthly chart needed to distinguish the two years more clearly. **I already acted on that feedback in the current prototype.** These screenshots show the earlier design and the completed revision; select either image to view it at full size.
+
+| Before feedback — earlier prototype | After feedback — current revised prototype |
+| --- | --- |
+| [![Before feedback: slate/teal year lines, a teal circle scatterplot and teal weather bars](Screenshots/01_overview.png)](Screenshots/01_overview.png) | [![After feedback: orange/black year lines, circle/triangle scatter marks and solid black weather bars](Screenshots/03_revised_overview.png)](Screenshots/03_revised_overview.png) |
+
+### What I changed and why
+
+| Area | Change already completed | Why I changed it |
+| --- | --- | --- |
+| **Year colors** | Replaced the slate/teal comparison with **tungsten black for 2011** and **orange for 2012** in the monthly and daily views | Make the two years easier to distinguish and keep their meaning consistent across views |
+| **Scatterplot shapes** | Replaced the single circle style with **circles for 2011** and **triangles for 2012** | Provide a second year cue beyond color, including in grayscale |
+| **Year selection** | Made the shared Year control a single-select **(All) / 2011 / 2012** dropdown | Let readers reduce overlap and inspect one year across all three charts |
+| **Weather bars and numbers** | Retained the six original mean bars, changed them to **solid black**, and kept their values in clear space after each bar | Emphasize the length comparison and keep the numbers readable |
+| **Visual check** | Inspected a grayscale version of the revised dashboard | Check that the year distinction still works when hue is removed |
+
+The revision preserves the same 731 daily records and the three-view layout. The [feedback log](feedback_log.txt) separates the feedback received, the changes already made and my own future plans.
+
+### Current submission screenshots
+
+Use the [revised overview](Screenshots/03_revised_overview.png) and [revised linked selection](Screenshots/04_revised_linked_selection.png). The example below shows the current prototype responding to a bar selection, with its actual tooltip.
 
 ![Published dashboard after selecting the rain/snow weekend bar: both target charts update and the tooltip shows 1,815 mean rentals across 5 days](Screenshots/04_revised_linked_selection.png)
 
-**Feedback already addressed:** Raz and Maria said the colors and the distinction between years needed to be clearer. The prototype now uses orange/black year colors, circle/triangle scatter marks, a shared Year filter and readable black weather bars. The [completed feedback log](feedback_log.txt) records their comments, the changes already made and the planned final checks.
+### Next: version 3 — planned improvements
+
+**Version 3 comes after this revised prototype; these analytical improvements are still planned.** Reflecting on the project's purpose, I noticed that I can use the data more fully to develop one clearer overall insight. I plan to compare grouped daily averages by year, weather and rider type around the story of demand growth, and explore additional compatible data if it adds useful context. This is my own reflection, separate from the feedback I already addressed. The [feasibility notes](docs/DATA_AND_DESIGN.md#my-own-reflection-and-plan-for-version-3) explain what the current data supports.
 
 <details>
 <summary>View the grayscale check</summary>
@@ -67,11 +91,9 @@ This diagnostic was derived from the revised native Tableau export and visually 
 </details>
 
 <details>
-<summary>View the earlier prototype screenshots — preserved before the feedback changes</summary>
+<summary>View the earlier linked-selection screenshot — preserved before the feedback changes</summary>
 
-These earlier images document progress. The revised screenshots above show the current design.
-
-![Earlier prototype overview](Screenshots/01_overview.png)
+This earlier interaction screenshot and the before-feedback overview above are preserved to document progress. The revised screenshots show the current design.
 
 ![Earlier prototype linked selection](Screenshots/02_linked_selection.png)
 

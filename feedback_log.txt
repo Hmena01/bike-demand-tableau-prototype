@@ -1,19 +1,21 @@
 FEEDBACK LOG — Project 2 prototype
 Harsh Menaria | Bike demand across time and weather
 
-Feedback received in class from Raz and Maria (instructors):
+Feedback received — Raz and Maria (instructors):
 The sequential colors were not distinct enough, and the monthly
 line chart needed to distinguish the two years more clearly.
 
-Changes already made:
-I acted on this feedback during the prototype stage because it
-mainly concerned color and shape. I changed 2011 to tungsten black
-and 2012 to orange, added circles/triangles to the scatterplot,
-and made the Year filter shared. The monthly chart keeps one line
-per year. The weather chart retains its six original mean bars,
-now solid black with visible numbers. I inspected the revision in
-grayscale. The earlier screenshots are preserved beside new ones.
+Changes completed in this prototype (after feedback):
+I changed 2011 to tungsten black and 2012 to orange, added
+circle/triangle scatter marks and a shared Year filter, and kept
+one monthly line per year. The six weather bars are solid black
+with visible numbers. I checked grayscale and preserved the old
+screenshots alongside the revised ones.
 
-Planned before the final:
-Review overlap and label readability in filtered views, keep the
-year key clear, and test usability with additional viewers.
+My own reflection — planned version 3, after this prototype:
+Reflecting on the project's purpose, I noticed I can do more with
+the data to develop one clearer overall insight. Next, I plan to use
+grouped daily averages by year, weather and rider type to connect
+the views around demand growth. The existing data supports this;
+I will explore additional compatible data if it adds useful context.
+I will also review filtered-view readability and test usability.
