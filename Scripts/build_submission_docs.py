@@ -69,10 +69,10 @@ footer(c,1);c.showPage();c.save()
 c=canvas.Canvas(str(DRAFT/'Usability_Test_Report_DRAFT.pdf'),pagesize=letter);c.setTitle('DRAFT — Usability test evidence required')
 for page in range(1,4):
  c.setFillColor(INK);c.setFont('Georgia',22);c.drawString(54,740,'Usability test report — DRAFT')
- y=para(c,'Peer-testing results have not yet been supplied. This document is a test protocol and evidence worksheet, not a completed two-peer usability report.',54,713)
+ y=para(c,'In-class peer-review participation is confirmed, with feedback I gave recorded on page 3. Task-level observations of classmates using my dashboard are not yet documented here.',54,713)
  if page==1:
   y=heading(c,'Method and three tasks for each tester',y-12)
-  y=para(c,'Recruit two peers who have not seen the dataset. Ask them to think aloud. Give the same three tasks to each person; record completion, time, errors, exact comments and any help provided. Reset all controls between testers.',54,y)
+  y=para(c,'The tasks below are a proposed protocol for the final revision, not reconstructed records of the class session. Ask two peers to think aloud, record completion, difficulties and comments, and reset the dashboard between testers.',54,y)
   tasks=[('1. Compare years and months','Find the highest monthly mean in 2012, compare it with the same month in 2011, and select that month/year to show its daily records and weather groups.'),('2. Isolate humidity','Use the Humidity band control to show only More humid (>70%) days. Hover a daily point to report its humidity and rentals, and describe what changed in the other views.'),('3. Use a weather selection and reset','With all filters at All, select the light rain/snow weekend bar. Report its mean and observed-day count, describe the linked views, then restore the full dashboard.')]
   for title,body in tasks:y=heading(c,title,y-10);y=para(c,body,54,y)
   y=heading(c,'Observed-day counts are not rental totals',y-12);y=para(c,'The verified rain/weekend reference is 1,815 mean rentals per day across 5 observed days. These are facilitator reference values; they are not participant observations.',54,y)
@@ -87,10 +87,12 @@ for page in range(1,4):
   y=para(c,'Maria identified a missing cover page, black weather bars reusing the 2011 color, and humidity sizes that were difficult to distinguish in the dense scatterplot. This is instructor feedback and must remain distinct from the two student testing sessions.',54,y)
   y=heading(c,'Changes made in response',y-10)
   y=para(c,'Added a standalone cover page; restored teal weather bars so black is specific to 2011; added a shared Humidity band filter; expanded cross-filtering so all three views can drive a selection. Earlier and revised screenshots are retained for comparison.',54,y)
-  y=heading(c,'Peer findings and follow-up — pending evidence',y-10)
-  for label in ['Issue observed and supporting task/quote','Severity and reason','Specific change made or planned','Retest result and remaining limitation']:
-   y=para(c,label+':<br/>________________________________________________________<br/>________________________________________________________',54,y)
-  para(c,'Insert before/after evidence after the actual sessions. Do not present automated checks or instructor feedback as two completed peer usability tests.',54,y,style=SMALL)
+  y=heading(c,'Early feedback I gave classmates',y-10)
+  y=para(c,'<b>Yinkui Yu:</b> I liked the charts and interactivity; the single biggest improvement would be reducing the amount of scrolling needed to explore the dashboard.',54,y)
+  y=para(c,'<b>Will Miller:</b> I recommend bringing the charts into one coordinated dashboard view, because clicking between separate charts makes comparisons and relationships harder to follow.',54,y)
+  y=para(c,'I also gave feedback to other students in class, but I do not recall their names well enough to attribute individual comments.',54,y,style=SMALL)
+  y=heading(c,'Task-level records still to document',y-10)
+  para(c,'The class comments above document feedback I gave on other dashboards. To complete the final usability report, add the names of classmates who used my dashboard, the three tasks each attempted, observed difficulties or comments, and changes tied to those findings. Instructor feedback and automated checks remain separately identified.',54,y,style=SMALL)
  footer(c,page);c.showPage()
 c.save()
 

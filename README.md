@@ -59,7 +59,8 @@ Monthly lines connect observed means, including across missing matching months. 
 | One-page reflection and updated channel table | [Reflection.pdf](Submission/Reflection.pdf) |
 | Three annotated screenshots | [Annotated_Screenshots.pdf](Submission/Annotated_Screenshots.pdf) · native PNGs [overview](Screenshots/06_final_overview.png), [humidity filter](Screenshots/07_final_humidity_filter.png), [linked selection](Screenshots/08_final_linked_selection.png) |
 | Feedback received and changes made | [feedback_log.txt](feedback_log.txt) |
-| Required 2–3 page usability report | **Pending actual results from two peers, three tasks each.** [Draft protocol and observation worksheet](Drafts/Usability_Test_Report_DRAFT.pdf) is explicitly incomplete; instructor feedback and automated checks do not replace peer testing. |
+| Early feedback I gave classmates | [Yinkui Yu, Will Miller and class participation](docs/CLASS_FEEDBACK_GIVEN.md) |
+| Required 2–3 page usability report | Class peer-review participation and the feedback I gave are documented. The [draft report](Drafts/Usability_Test_Report_DRAFT.pdf) includes those comments; observations of two classmates completing three tasks on my dashboard still need to be documented. |
 
 ## Before and after feedback
 

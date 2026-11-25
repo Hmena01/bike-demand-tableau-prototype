@@ -22,6 +22,7 @@ Further grouped daily means by year, weather and rider type are
 feasible with the current data. Additional compatible sources
 could add context; this further analysis is still planned.
 
-Formal testing with two peers and three tasks each still needs
-actual session observations. Instructor comments are not being
-represented as completed peer usability testing.
+My in-class feedback to Yinkui Yu and Will Miller is documented
+in docs/CLASS_FEEDBACK_GIVEN.md and the draft report. Task-level
+observations of classmates using my dashboard still need to be
+recorded for the final usability report.

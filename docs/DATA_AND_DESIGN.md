@@ -93,7 +93,7 @@ Selecting the rain/weekend bar updated both target charts. Clicking blank plot s
 
 Raz and Maria's feedback and the color/shape changes already made are recorded in the [feedback log](../feedback_log.txt). Earlier screenshots remain available alongside the revised screenshots in the [project README](../README.md#screenshots-and-feedback).
 
-The final revision adds a cover page, restores teal weather bars, adds the shared humidity filter with stable sizes, and completes cross-filtering from each view. A one-page reflection and three annotated screenshots accompany the workbook. **Actual two-peer usability session results remain pending**; the three-page draft worksheet is not a completed usability report. A separate narrower-screen layout and comprehensive assistive-technology testing have not been completed.
+The final revision adds a cover page, restores teal weather bars, adds the shared humidity filter with stable sizes, and completes cross-filtering from each view. A one-page reflection and three annotated screenshots accompany the workbook. [In-class feedback I gave](CLASS_FEEDBACK_GIVEN.md) is documented, including the comments on Yinkui Yu and Will Miller. The three-page draft also includes this class participation; task-level observations of two classmates using my dashboard still need to be recorded for the final usability report. A separate narrower-screen layout and comprehensive assistive-technology testing have not been completed.
 
 ## My own reflection and further analytical work
 
