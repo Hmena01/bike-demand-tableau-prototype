@@ -6,5 +6,6 @@ __pycache__/
 *.log
 Scripts/*
 !Scripts/prepare_data.py
+!Scripts/build_submission_docs.py
 Source/*proposal*
 *.twbr

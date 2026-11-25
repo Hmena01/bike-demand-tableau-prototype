@@ -1,123 +1,104 @@
 # Bike demand across time and weather
 
-**Harsh Menaria · NYU Information Visualization · Project 2 prototype**
+**Harsh Menaria · NYU Information Visualization · Mini-Project 2 · Final dashboard revision**
 
-How do time of year, temperature, weather and day type relate to bike-rental demand? This interactive Tableau dashboard explores **731 days of Capital Bikeshare rentals in Washington, DC, during 2011–2012**, through three connected views.
+How do time of year, temperature, weather and day type relate to daily bike-rental demand, and how do the patterns differ between 2011 and 2012? Three coordinated Tableau views explore **731 daily Capital Bikeshare records from Washington, DC**.
 
 ## View the dashboard
 
-### [Open the live interactive dashboard →](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes)
+### [Open the interactive Tableau dashboard →](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes)
 
-**View it in your browser. No Tableau installation, account or sign-in is needed.** GitHub displays the documentation and screenshots; the filters, selections and tooltips work on Tableau Public.
+**No Tableau installation, account or sign-in is needed to view it.** GitHub holds the workbook, documentation and images; Tableau Public runs the interactions. Use a desktop/laptop. The dashboard has a fixed 1440 × 900 layout; use Tableau's **Full Screen** control or browser zoom if an edge is hidden. A separate mobile layout has not been implemented.
 
-Use a desktop or laptop for the full layout. If an edge is hidden, use Tableau's **Full Screen** control below the dashboard or zoom your browser out.
-
-[![Current dashboard overview: monthly demand, daily temperature/rentals scatterplot and weather/day-type bars](Screenshots/03_revised_overview.png)](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes)
-
-*Current overview. Select the preview above to open the live dashboard.*
+[![Final dashboard: two year lines, daily circles and triangles, teal weather bars and four shared filters](Screenshots/06_final_overview.png)](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes)
 
 ## Try it in one minute
 
-1. Open the live dashboard and start with all three filters set to **(All)**.
-2. Change **Year** to **2012** in the upper right. All three charts update; the scatterplot shows only orange triangles, making individual days easier to inspect.
-3. Hover over a daily point to see its date, rentals, temperature, humidity, weather and day type.
-4. Return **Year** to **(All)**, then click the **Weekend / holiday** bar under **Light rain / snow**. The monthly chart and scatterplot update to the **five matching days**. Hover over the bar to see **1,815 mean rentals per day** and **5 observed days**.
-5. Click empty plot space inside the weather chart to clear the selection. The other views return to the data allowed by your dropdown filters.
+1. Start with **Year, Day type, Humidity band and Weather group** set to **(All)**.
+2. Choose **More humid (>70%)** under Humidity band. All three views update to those **231 days**. Symbol sizes stay fixed when filtering; exact humidity remains in hover details.
+3. Return Humidity band to **(All)**. Click the **September 2012** point on the orange monthly line. The daily and weather views update to its **30 days**.
+4. Click blank plot space in the **monthly chart** to clear that selection.
+5. Click the **Weekend / holiday** bar under **Light rain / snow**. The monthly and daily charts show the **five matching days**. Hover the bar: **1,815 mean rentals per day**, **5 observed days**.
+6. Click blank plot space in the **weather chart** to clear it. Hover daily symbols to inspect individual dates and conditions.
 
-## What the interactions do
+## Interactions
 
-| Control or gesture | How to use it | What changes |
-| --- | --- | --- |
-| **Year** | Choose **2011**, **2012** or **(All)** | Filters all three charts; a single year reduces overlap |
-| **Day type** | Use the checkboxes to select working days and/or weekends/holidays | Filters all three charts |
-| **Weather group** | Use the checkboxes to select clear, mist/cloudy and/or light rain/snow days | Filters all three charts |
-| **Select a weather bar** | Click one of the six horizontal bars | Filters the monthly chart and scatterplot to that weather/day-type group; the weather chart keeps its comparison rows and dims the other bars |
-| **Clear a bar selection** | Click blank plot space inside the weather chart | Removes the chart selection while keeping your dropdown filters |
-| **Hover over a mark** | Pause over a line point, daily symbol or bar | Shows exact values; monthly points and bars also show how many days contribute to their mean |
-
-The dropdown filters work together. **To reset everything:** clear any weather-bar selection, then set Year, Day type and Weather group to **(All)**. The year key explains the colors and shapes; use the **Year dropdown** to filter.
-
-## How to read the three views
-
-| View | What each mark represents | What to compare |
-| --- | --- | --- |
-| **Monthly demand** | One month's **mean rentals per day**, with one line per year | Seasonal patterns and the difference between 2011 and 2012 |
-| **Daily rentals and temperature** | One day: temperature on the horizontal axis and rentals on the vertical axis | Temperature/demand patterns; larger symbols indicate a higher humidity band |
-| **Rentals by weather and day type** | **Mean rentals per day** for one weather/day-type group | Working days versus weekends/holidays within each weather group |
-
-**2011 = tungsten black; 2012 = orange.** The scatterplot also uses **circles for 2011** and **triangles for 2012**. Weather bars are uniformly black; their color does not represent a year. The Year filter controls which years contribute to those means.
-
-Monthly lines connect observed means, including across months without matching days; a gap is never treated as zero. “Observed days” is the sample count behind an average, not the number of rentals. The rain/weekend example has only five days, so it should not be treated as a reliable general weekend effect. Trendlines describe associations rather than causes or forecasts.
-
-## Screenshots and feedback
-
-### Before feedback → after feedback
-
-Raz and Maria said the sequential colors were not distinct enough and the monthly chart needed to distinguish the two years more clearly. **I already acted on that feedback in the current prototype.** These screenshots show the earlier design and the completed revision; select either image to view it at full size.
-
-| Before feedback — earlier prototype | After feedback — current revised prototype |
+| Control or gesture | Result |
 | --- | --- |
-| [![Before feedback: slate/teal year lines, a teal circle scatterplot and teal weather bars](Screenshots/01_overview.png)](Screenshots/01_overview.png) | [![After feedback: orange/black year lines, circle/triangle scatter marks and solid black weather bars](Screenshots/03_revised_overview.png)](Screenshots/03_revised_overview.png) |
+| **Year**: All / 2011 / 2012 | Filters every view; one year reduces overlap |
+| **Humidity band**: All / Drier / Moderate / More humid | Isolates a humidity band across every view; thresholds appear in the control and key |
+| **Day type** and **Weather group** | Filter every view to the selected categories |
+| Click a **monthly point** | Filters the daily and weather views to that original year and month |
+| Click a **daily symbol** | Filters monthly and weather views to that date |
+| Click a **weather/day-type bar** | Filters monthly and daily views to that group |
+| Click blank plot space in the **source chart** | Clears that chart's selection; other active selections and dropdown filters still apply |
+| Hover a point or bar | Shows exact values; aggregated marks include observed-day counts |
 
-### What I changed and why
+**Reset:** clear selections in every chart you used as a source, then return all four dropdowns to **(All)**. Tableau Public's **Revert** toolbar button also restores the published starting state. Filters combine, so conflicting selections can produce no matching records. The year key explains color/shape; use the Year dropdown to filter.
 
-| Area | Change already completed | Why I changed it |
+## Read the views
+
+| View | Mark and comparison | Research question |
 | --- | --- | --- |
-| **Year colors** | Replaced the slate/teal comparison with **tungsten black for 2011** and **orange for 2012** in the monthly and daily views | Make the two years easier to distinguish and keep their meaning consistent across views |
-| **Scatterplot shapes** | Replaced the single circle style with **circles for 2011** and **triangles for 2012** | Provide a second year cue beyond color, including in grayscale |
-| **Year selection** | Made the shared Year control a single-select **(All) / 2011 / 2012** dropdown | Let readers reduce overlap and inspect one year across all three charts |
-| **Weather bars and numbers** | Retained the six original mean bars, changed them to **solid black**, and kept their values in clear space after each bar | Emphasize the length comparison and keep the numbers readable |
-| **Visual check** | Inspected a grayscale version of the revised dashboard | Check that the year distinction still works when hue is removed |
+| **Monthly demand** | Mean rentals per day for each month/year | How do seasonal patterns differ between years? |
+| **Daily rentals and temperature** | One date; temperature on x, rentals on y, humidity band by size | How do demand and temperature relate, and how does humidity affect the comparison? |
+| **Rentals by weather and day type** | One zero-based horizontal mean bar per weather/day-type group | How do demand patterns differ by weather and working versus nonworking days? |
 
-The revision preserves the same 731 daily records and the three-view layout. The [feedback log](feedback_log.txt) separates the feedback received, the changes already made and my own future plans.
+**2011 = tungsten black #333333; 2012 = orange #D55E00.** The daily view also uses **circles for 2011** and **triangles for 2012**. Weather bars use the original **teal #155E63**, so their color cannot be mistaken for 2011. Each bar pools the years allowed by the Year filter; bars are not split into year segments.
 
-### Current submission screenshots
+Humidity has three ordered display bands: **Drier <50%, Moderate 50–70%, More humid >70%**. These are display thresholds, not scientific classifications or exact proportional areas. The band key remains visible when filtering. Daily trendlines are descriptive fits for each visible year; they establish neither causality nor forecasts.
 
-Use the [revised overview](Screenshots/03_revised_overview.png) and [revised linked selection](Screenshots/04_revised_linked_selection.png). The example below shows the current prototype responding to a bar selection, with its actual tooltip.
+Monthly lines connect observed means, including across missing matching months. Missing values are never assigned zero. “Observed days” counts days contributing to an average, not trips. The rain/weekend mean has only five observations and cannot establish a general weekend effect.
 
-![Published dashboard after selecting the rain/snow weekend bar: both target charts update and the tooltip shows 1,815 mean rentals across 5 days](Screenshots/04_revised_linked_selection.png)
+## Final submission files
 
-### Next: version 3 — planned improvements
-
-**Version 3 comes after this revised prototype; these analytical improvements are still planned.** Reflecting on the project's purpose, I noticed that I can use the data more fully to develop one clearer overall insight. I plan to compare grouped daily averages by year, weather and rider type around the story of demand growth, and explore additional compatible data if it adds useful context. This is my own reflection, separate from the feedback I already addressed. The [feasibility notes](docs/DATA_AND_DESIGN.md#my-own-reflection-and-plan-for-version-3) explain what the current data supports.
-
-<details>
-<summary>View the grayscale check</summary>
-
-This diagnostic was derived from the revised native Tableau export and visually inspected. The year lines retain different lightness and the scatterplot retains different shapes.
-
-![Grayscale diagnostic of the revised dashboard](Screenshots/05_grayscale_check.png)
-
-</details>
-
-<details>
-<summary>View the earlier linked-selection screenshot — preserved before the feedback changes</summary>
-
-This earlier interaction screenshot and the before-feedback overview above are preserved to document progress. The revised screenshots show the current design.
-
-![Earlier prototype linked selection](Screenshots/02_linked_selection.png)
-
-</details>
-
-## Open the workbook locally
-
-For viewing, the browser link above is enough. To inspect or edit the native workbook:
-
-1. [Download the packaged Tableau workbook](https://github.com/Hmena01/bike-demand-tableau-prototype/raw/refs/heads/main/menaria_harsh_bike_demand_prototype.twbx).
-2. Open the downloaded `.twbx` in Tableau Desktop or Tableau Public desktop. It was authored in **Tableau Desktop 2026.2.2**; use that version or a compatible newer version.
-3. Select the **Bike demand | Prototype** dashboard tab.
-
-All 731 daily records are embedded in the workbook. No external spreadsheet connection, Python setup, API key or data refresh is needed to open it. GitHub cannot run the `.twbx` as an interactive dashboard.
-
-## Data and project documentation
-
-Source: Fanaee-T, H. (2013), *Bike Sharing*, [UCI Machine Learning Repository](https://doi.org/10.24432/C5W894). The original daily records are preserved; no days were sampled, deleted or imputed.
-
-| Resource | Contents |
+| Deliverable | File / status |
 | --- | --- |
-| [Data, design and verification notes](docs/DATA_AND_DESIGN.md) | Research encodings, Q/O/N field types, calculations, source checks and limitations |
-| [Original source data](Source/) | Supplied daily CSV and dataset Readme |
-| [Prepared data](Data/) | Typed CSV and Excel files |
-| [Feedback log](feedback_log.txt) | Raz and Maria's feedback and the response |
+| Cover page — put first in the course submission | [Cover_Page.pdf](Submission/Cover_Page.pdf) |
+| Interactive dashboard / editable source with embedded data | [Download the TWBX](menaria_harsh_bike_demand_prototype.twbx) · [View online](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes) |
+| One-page reflection and updated channel table | [Reflection.pdf](Submission/Reflection.pdf) |
+| Three annotated screenshots | [Annotated_Screenshots.pdf](Submission/Annotated_Screenshots.pdf) · native PNGs [overview](Screenshots/06_final_overview.png), [humidity filter](Screenshots/07_final_humidity_filter.png), [linked selection](Screenshots/08_final_linked_selection.png) |
+| Feedback received and changes made | [feedback_log.txt](feedback_log.txt) |
+| Required 2–3 page usability report | **Pending actual results from two peers, three tasks each.** [Draft protocol and observation worksheet](Drafts/Usability_Test_Report_DRAFT.pdf) is explicitly incomplete; instructor feedback and automated checks do not replace peer testing. |
 
-This is a working prototype for class feedback. Full reciprocal brushing, formal accessibility tuning and human usability testing remain final-submission work.
+## Before and after feedback
+
+The original images are preserved. Raz and Maria's initial feedback concerned weak color differentiation and distinguishing the two years. The prototype response introduced black/orange years, circle/triangle daily marks and a shared Year filter.
+
+| Original prototype | Revised prototype after initial feedback |
+| --- | --- |
+| [![Original teal/slate dashboard](Screenshots/01_overview.png)](Screenshots/01_overview.png) | [![Revised prototype with black/orange years and black weather bars](Screenshots/03_revised_overview.png)](Screenshots/03_revised_overview.png) |
+
+Maria's additional review identified the missing cover, black bars reusing 2011's color and difficult humidity-size comparisons. These corrections are **already implemented** in the final dashboard revision:
+
+| Issue | Change and reason |
+| --- | --- |
+| Missing cover page | Added a standalone cover with author, project, research question, source and viewing links |
+| Weather bars reused 2011 black | Restored teal bars; reserve black/orange for the year comparison |
+| Humidity sizes difficult in dense daily marks | Added a shared Humidity band filter and fixed the size range, so isolating one band preserves its size |
+| Final requires selection from any view | Monthly, daily and weather selections each filter both other views; tooltips supply exact values and counts |
+| Sparse selections risk clipped values | Retained readable values after the bars and expanded the fixed bar axis to accommodate the dataset's highest daily value |
+
+| Before Maria's additional review | After the final corrections |
+| --- | --- |
+| [![Before: black bars and three filters](Screenshots/03_revised_overview.png)](Screenshots/03_revised_overview.png) | [![After: teal bars and a shared humidity filter](Screenshots/06_final_overview.png)](Screenshots/06_final_overview.png) |
+
+![Final shared humidity filter isolates More humid days across the three views](Screenshots/07_final_humidity_filter.png)
+
+![Selecting September 2012 updates the daily points and weather/day-type means](Screenshots/08_final_linked_selection.png)
+
+Earlier evidence remains available: [original linked selection](Screenshots/02_linked_selection.png), [revised prototype linked selection](Screenshots/04_revised_linked_selection.png) and [prototype grayscale check](Screenshots/05_grayscale_check.png). These historical images show their respective versions. The [final grayscale check](Screenshots/09_final_grayscale_check.png) is derived from the latest native overview; the year lightness and daily shapes remain distinguishable.
+
+## Open locally and inspect the source
+
+1. Download [menaria_harsh_bike_demand_prototype.twbx](https://github.com/Hmena01/bike-demand-tableau-prototype/raw/refs/heads/main/menaria_harsh_bike_demand_prototype.twbx).
+2. Open it in **Tableau Desktop 2026.2.2** or a compatible newer version.
+3. Select **Bike demand | Prototype**. The original internal dashboard name and public URL are retained to preserve existing links; the file contains the final corrections.
+
+All **731 daily records** are embedded in a native Hyper extract. No spreadsheet reconnection, Python setup, API key or refresh is required. GitHub does not execute TWBX files.
+
+[Source/day.csv](Source/day.csv) and [Source/Readme.txt](Source/Readme.txt) preserve the original data. [Prepared data](Data/) and the commented [preparation script](Scripts/prepare_data.py) document transformations. The TWBX contains the editable native worksheets, calculations, filters and actions. The optional [document builder](Scripts/build_submission_docs.py) renders supporting PDFs; it does not modify the workbook. To regenerate PDFs on macOS, install `reportlab` and `PyMuPDF`, then run `python Scripts/build_submission_docs.py`; it uses the system Georgia and Trebuchet MS fonts.
+
+Source: Fanaee-T, H. (2013), *Bike Sharing*, [UCI Machine Learning Repository](https://doi.org/10.24432/C5W894). See [data, design and verification notes](docs/DATA_AND_DESIGN.md) for field types, formulas, source checks, limitations and possible further analysis.
+
+AI assistance supported implementation, formatting and verification. The project author must review the reflection and be able to explain the submitted calculations, source preparation and design decisions. The layout, fonts, year colors/shapes and restored teal follow the author's existing choices and requested revisions.

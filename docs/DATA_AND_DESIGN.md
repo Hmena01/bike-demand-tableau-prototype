@@ -2,7 +2,7 @@
 
 [Back to the project and interaction guide](../README.md) · [Open the live dashboard](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no)
 
-These notes document the dataset, calculations and design decisions behind the working prototype. For instructions on viewing and interacting with it, start with the project README.
+These notes document the dataset, calculations and design decisions behind the final dashboard revision. For instructions on viewing and interacting with it, start with the project README.
 
 ## Source and preparation
 
@@ -33,13 +33,13 @@ Q means quantitative (a numeric amount), O means ordinal (an ordered category), 
 
 ## Encodings and changes from the proposal
 
-| Variable and data type | Encoding | Prototype decision |
+| Variable and data type | Encoding | Final decision |
 | --- | --- | --- |
 | Month, temporal interval | Fixed continuous calendar x position; separate original year series | Replaces the proposed chronological sequence with aligned seasonal comparison; filtering preserves spacing |
-| Daily rentals / mean daily rentals, quantitative ratio | Scatter/line y position; zero-based bar length | Shared 0–10,000 rental bounds; six bar means directly labeled |
+| Daily rentals / mean daily rentals, quantitative ratio | Scatter/line y position; zero-based bar length | Monthly/scatter rental axes fixed at 0–10,000; bar axis fixed at 0–12,000 to leave space for values after bars, including the maximum observed daily count of 8,714 |
 | Temperature, quantitative interval | Continuous scatter x position, 0–40 °C | As proposed |
-| Humidity, quantitative ratio, grouped into ordered bands | Three ordered symbol sizes: Drier (<50%), Moderate (50–70%), More humid (>70%); exact percentage in hover | Replaces the subtle continuous size scale with readable bands and a visible minimum. These display thresholds are not scientific classifications. Size indicates order, not proportional area; Tableau omits absent bands from the filtered legend |
-| Weather, ordinal categories | Ordered, labeled rows | Each weather/day-type combination keeps one solid tungsten `#333333` mean bar. Weather is identified by row position and text, with no color subdivision |
+| Humidity, quantitative ratio, grouped into ordered bands | Three ordered symbol sizes: Drier (<50%), Moderate (50–70%), More humid (>70%); exact percentage in hover | Replaces the subtle continuous size scale with readable bands and a visible minimum. These display thresholds are not scientific classifications. Size indicates order, not proportional area. The size calculation assigns ranks 1, 2 and 3, with a fixed size range so filtering cannot resize a band. The native text key names all three bands |
+| Weather, ordinal categories | Ordered, labeled rows | Each weather/day-type combination keeps one solid teal `#155E63` mean bar. Weather is identified by row position and text, with no color subdivision |
 | Day type, nominal | Paired labeled bar rows | Replaces proposed circle/triangle shapes; working day precedes weekend/holiday |
 | Year, nominal comparison | Tungsten `#333333` for 2011; orange/vermilion `#D55E00` for 2012 | One monthly line per year; circles for 2011 and triangles for 2012 in the scatterplot. A single colored year key and the shared Year filter support comparison |
 
@@ -63,23 +63,25 @@ The rain/snow weekend mean rests on just five observations and should not be pre
 
 ## Implemented interactions
 
-Year, Day type and Weather group filters apply to all three charts. Selecting a weather/day-type bar filters the monthly and daily views to matching records; the weather chart retains the comparison rows and dims the other bars. Clearing that selection restores the target views within the current dropdown filters. Tooltips provide precise values and observed-day counts for aggregated marks.
+Year, Day type, Weather group and Humidity band filters apply to all three charts. Each chart can also drive a cross-filter: a monthly point passes its original Year and MonthNumber to the daily and weather views; a daily symbol passes its exact date to the monthly and weather views; a weather/day-type bar passes those categories to monthly and daily views. Clearing a selection in its source chart restores the target views within the other active selections and shared filters. Tooltips provide precise values and observed-day counts for aggregated marks. Conflicting selections can produce no matching records; clear the source selections and set all four dropdowns to All to reset. Tableau Public Revert restores the published starting state.
 
-The weather chart is the source of the cross-view selection action. The year key is a text guide; the Year dropdown provides filtering. Full reciprocal brushing remains final-submission work.
+All three charts are sources of selection actions, each with the other two charts as targets. The year key is a text guide; the Year dropdown provides filtering. Native workbook animations are enabled at Fast (0.30 seconds), Simultaneous. Filtered-out groups with no observed days are not invented zero-rental bars.
 
 The scatterplot includes a native linear fit for each visible year, without confidence bands. These are descriptive associations, not causal effects or forecasts. Fits based on sparse selections should be treated cautiously.
 
 ## Color and grayscale check
 
-2011 uses tungsten `#333333`; 2012 uses orange/vermilion `#D55E00`, from the [Okabe–Ito Color Universal Design palette](https://jfly.uni-koeln.de/color/). The scatterplot also uses circles and triangles. The weather bars are uniformly tungsten; their color does not encode year.
+2011 uses tungsten `#333333`; 2012 uses orange/vermilion `#D55E00`, from the [Okabe–Ito Color Universal Design palette](https://jfly.uni-koeln.de/color/). The scatterplot also uses circles and triangles. The weather bars are uniformly teal; this separates their meaning from the black 2011 series. Their color does not encode year.
 
-A [grayscale conversion](../Screenshots/05_grayscale_check.png) of the revised native overview was visually inspected. The year lines retain different lightness and the daily points retain their shapes. The specified solid year colors have contrast ratios of 12.63:1 and 3.87:1 against white; symbol transparency and antialiasing affect displayed contrast. This check does not establish complete accessibility or replace testing with viewers.
+A [final grayscale conversion](../Screenshots/09_final_grayscale_check.png) of the final native overview was visually inspected; the [prototype check](../Screenshots/05_grayscale_check.png) is preserved. The year lines retain different lightness and the daily points retain their shapes. The specified solid year colors have contrast ratios of 12.63:1 and 3.87:1 against white; symbol transparency and antialiasing affect displayed contrast. This check does not establish complete accessibility or replace testing with viewers.
 
 ## Verification and feedback response
 
-Native checks covered the full-data overview, the shared 2011 and 2012 filter, and the linked five-day rain/weekend selection. All six full-period weather means match the original source. The original embedded Hyper data remains unchanged.
+Native checks covered the full-data overview, humidity filtering, a September 2012 monthly selection, an exact-date daily selection, and the weather-bar selection. All six full-period weather means match the original source. The original embedded Hyper data remains unchanged.
 
-The published revision loaded in a fresh anonymous browser session. Its Year filter and rain/weekend tooltip were checked against the source:
+Independent humidity-band counts are **146 Drier**, **354 Moderate**, and **231 More humid** (total 731). September 2012 contains 30 days with a mean of 7,285.77 rentals. Selecting September 15, 2012 leaves one date and 8,714 rentals in both target summaries. These are automated/data verification values, not peer-testing observations.
+
+The published prototype was previously checked in a fresh anonymous browser session. Its Year filter and rain/weekend tooltip matched these source values:
 
 | Year filter | Rain/weekend mean rentals per day | Observed days |
 | --- | ---: | ---: |
@@ -91,9 +93,9 @@ Selecting the rain/weekend bar updated both target charts. Clicking blank plot s
 
 Raz and Maria's feedback and the color/shape changes already made are recorded in the [feedback log](../feedback_log.txt). Earlier screenshots remain available alongside the revised screenshots in the [project README](../README.md#screenshots-and-feedback).
 
-Full reciprocal brushing, formal accessibility tuning, narrower-screen layouts and human usability testing remain final-submission work under the supplied rubric.
+The final revision adds a cover page, restores teal weather bars, adds the shared humidity filter with stable sizes, and completes cross-filtering from each view. A one-page reflection and three annotated screenshots accompany the workbook. **Actual two-peer usability session results remain pending**; the three-page draft worksheet is not a completed usability report. A separate narrower-screen layout and comprehensive assistive-technology testing have not been completed.
 
-## My own reflection and plan for version 3
+## My own reflection and further analytical work
 
 This direction comes from my own reflection on the project's purpose, separately from Raz and Maria's color and year-distinction feedback. I noticed that I can do more with the data to develop one clearer overall insight across the views.
 
@@ -104,8 +106,12 @@ Further aggregation is feasible with the existing records. The prepared data alr
 | 2011 | 365 | 3,405.76 |
 | 2012 | 366 | 5,599.93 |
 
-Mean daily rentals increased **64.4%** between the two years. This is a possible central finding for version 3: connect the views around demand growth, then examine how the descriptive patterns differ by month, weather, day type and rider type. Using daily means accounts for the different number of days in each year; grouped comparisons should retain their observed-day counts.
+Mean daily rentals increased **64.4%** between the two years. This is a possible central finding for further analysis: connect the views around demand growth, then examine how the descriptive patterns differ by month, weather, day type and rider type. Using daily means accounts for the different number of days in each year; grouped comparisons should retain their observed-day counts.
 
 If another source adds useful context, [UCI also provides hourly records for 2011–2012](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset), and [Capital Bikeshare publishes trip-history data](https://capitalbikeshare.com/system-data). Those records could be aggregated to a suitable comparison level after checking date coverage, definitions and data grain. They add detail from which summaries can be calculated; another dataset is not required simply to aggregate the current records.
 
-These are planned analytical improvements. No additional source or version-3 dashboard has been implemented as part of this feasibility check.
+These are planned analytical improvements. No additional source or rider-type dashboard has been implemented as part of this feasibility check. The final corrections above address usability and encoding feedback; these analytical extensions remain future work.
+
+The final published workbook was downloaded independently and checked for the restored teal, fixed humidity size bounds, cleared action filters and an unchanged Hyper extract hash. The fixed-size bounds use Tableau’s [native size range controls](https://help.tableau.com/current/pro/desktop/en-us/viewparts_marks_markproperties.htm).
+
+Final anonymous browser checks passed for the default overview, the More humid filter, monthly selection, exact-date daily selection, weather selection, selection clearing and tooltips. Checked values include clear/working mean 5,024 (307 days), More humid clear/working mean 5,116, September 2012 clear/working mean 7,617, the selected September 15 daily/monthly count 8,714, and rain/weekend mean 1,815 (5 days). These checks confirm the shipped interactions; they are not human usability observations.

@@ -1,21 +1,27 @@
-FEEDBACK LOG — Project 2 prototype
+FEEDBACK LOG — Mini-Project 2 final dashboard revision
 Harsh Menaria | Bike demand across time and weather
 
-Feedback received — Raz and Maria (instructors):
+Initial instructor feedback — Raz and Maria:
 The sequential colors were not distinct enough, and the monthly
-line chart needed to distinguish the two years more clearly.
+chart needed to distinguish the two years more clearly. I acted
+on this by using black/orange years, circle/triangle daily marks,
+a shared Year filter and one monthly line per year. I checked
+grayscale and kept the earlier screenshots.
 
-Changes completed in this prototype (after feedback):
-I changed 2011 to tungsten black and 2012 to orange, added
-circle/triangle scatter marks and a shared Year filter, and kept
-one monthly line per year. The six weather bars are solid black
-with visible numbers. I checked grayscale and preserved the old
-screenshots alongside the revised ones.
+Additional instructor feedback — Maria:
+The cover page was missing; black weather bars reused the 2011
+color; humidity sizes were hard to gauge among many daily points.
+I added a cover page, restored teal weather bars, and added a
+shared Humidity band filter. Sizes now stay fixed when filtering.
+Selections in each chart update the other two views, and bar
+values remain visible. Before/after evidence is in the README.
 
-My own reflection — planned version 3, after this prototype:
-Reflecting on the project's purpose, I noticed I can do more with
-the data to develop one clearer overall insight. Next, I plan to use
-grouped daily averages by year, weather and rider type to connect
-the views around demand growth. The existing data supports this;
-I will explore additional compatible data if it adds useful context.
-I will also review filtered-view readability and test usability.
+My own reflection, separate from the instructor feedback:
+I can use the data more fully to develop one central insight.
+Further grouped daily means by year, weather and rider type are
+feasible with the current data. Additional compatible sources
+could add context; this further analysis is still planned.
+
+Formal testing with two peers and three tasks each still needs
+actual session observations. Instructor comments are not being
+represented as completed peer usability testing.
