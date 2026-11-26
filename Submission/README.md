@@ -1,6 +1,6 @@
 # Submission documents
 
-For Brightspace, upload the cover PDF and the current TWBX, and include the GitHub repository link in the submission comments.
+For Brightspace, upload the cover PDF and include two links in the submission comments: the GitHub repository and the direct download for the current TWBX.
 
 | Item | Open or download |
 | --- | --- |
@@ -8,7 +8,6 @@ For Brightspace, upload the cover PDF and the current TWBX, and include the GitH
 | Current Tableau workbook, with KPI summaries | [Download the TWBX](https://github.com/Hmena01/bike-demand-tableau-prototype/raw/refs/heads/main/menaria_harsh_bike_demand_prototype.twbx) |
 | Repository link to submit | [Project repository and viewing guide](https://github.com/Hmena01/bike-demand-tableau-prototype) |
 | Live dashboard | [Open Tableau Public](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes) |
-| Copyable submission comments | [BRIGHTSPACE_SUBMISSION.txt](BRIGHTSPACE_SUBMISSION.txt) |
 
 The repository also contains the [one-page reflection](Reflection.pdf), [three annotated screenshots](Annotated_Screenshots.pdf), [feedback log](../feedback_log.txt), [class feedback provided](../docs/CLASS_FEEDBACK_GIVEN.md), and editable workbook/source data.
 

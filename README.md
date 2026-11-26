@@ -6,11 +6,11 @@ How do time of year, temperature, weather and day type relate to daily bike-rent
 
 ## Brightspace submission
 
-Upload the **[cover page PDF](Submission/Cover_Page.pdf)** and the **[latest packaged Tableau workbook](https://github.com/Hmena01/bike-demand-tableau-prototype/raw/refs/heads/main/menaria_harsh_bike_demand_prototype.twbx)**, then paste **[this GitHub repository link](https://github.com/Hmena01/bike-demand-tableau-prototype)** into the submission comments.
+Upload the **[cover page PDF](Submission/Cover_Page.pdf)**. In the submission comments, include **[this GitHub repository link](https://github.com/Hmena01/bike-demand-tableau-prototype)** and the **[direct download link to the latest TWBX](https://github.com/Hmena01/bike-demand-tableau-prototype/raw/refs/heads/main/menaria_harsh_bike_demand_prototype.twbx)**.
 
 The cover page includes the project title, author, research question, dataset, and links to the live dashboard, repository and workbook download. The TWBX is the current version with **Total rentals, Avg. rentals / day and Days in view**; all 731 daily records are embedded.
 
-The repository also provides the reflection, annotated screenshots, interaction guide, feedback and source data. See the [deliverable status](#final-submission-files), including the usability-report draft. [Copyable submission text](Submission/BRIGHTSPACE_SUBMISSION.txt) is provided for the Brightspace comments box.
+The repository also provides the reflection, annotated screenshots, interaction guide, feedback and source data. See the [deliverable status](#final-submission-files), including the usability-report draft.
 
 ## View the dashboard
 
