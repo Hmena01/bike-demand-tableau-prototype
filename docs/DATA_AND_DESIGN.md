@@ -103,7 +103,7 @@ The published prototype was previously checked in a fresh anonymous browser sess
 
 Selecting the rain/weekend bar updated both target charts. Clicking blank plot space cleared the selection. The revised value labels were checked at the dashboard's intended desktop width.
 
-Raz and Maria's feedback and the color/shape changes already made are recorded in the [feedback log](../feedback_log.txt). Earlier screenshots remain available alongside the revised screenshots in the [project README](../README.md#screenshots-and-feedback).
+Raz and Maria's feedback and the color/shape changes already made are recorded in the [feedback log](../feedback_log.txt). Earlier screenshots remain available alongside the revised screenshots in the [project README](../README.md#before-and-after-feedback).
 
 The final revision adds a cover page, restores teal weather bars, adds the shared humidity filter with stable sizes, and completes cross-filtering from each view. A one-page reflection and three annotated screenshots accompany the workbook. [In-class feedback I gave](CLASS_FEEDBACK_GIVEN.md) is documented, including the comments on Yinkui Yu and Will Miller. The three-page draft also includes this class participation; task-level observations of two classmates using my dashboard still need to be recorded for the final usability report. A separate narrower-screen layout and comprehensive assistive-technology testing have not been completed.
 

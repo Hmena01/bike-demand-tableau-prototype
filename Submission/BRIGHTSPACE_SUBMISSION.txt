@@ -1,0 +1,11 @@
+Harsh Menaria — Mini-Project 2: Bike demand across time and weather
+
+GitHub repository and submission guide:
+https://github.com/Hmena01/bike-demand-tableau-prototype
+
+Interactive Tableau dashboard:
+https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes
+
+Attached: Cover_Page.pdf and menaria_harsh_bike_demand_prototype.twbx.
+
+The workbook contains three coordinated charts, four shared filters and three KPI summaries that update with the selection. All 731 daily records are embedded. The repository includes the reflection, annotated screenshots, before/after feedback evidence, source data and viewing instructions. The README lists the status of each deliverable, including the usability-report draft.

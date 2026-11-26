@@ -18,6 +18,7 @@ for name,file in [('Georgia','Georgia.ttf'),('Trebuchet','Trebuchet MS.ttf'),('T
 INK=colors.HexColor('#1B2324');TEAL=colors.HexColor('#155E63');MUTED=colors.HexColor('#525D5E')
 LIVE='https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes'
 REPO='https://github.com/Hmena01/bike-demand-tableau-prototype'
+WORKBOOK=REPO+'/raw/refs/heads/main/menaria_harsh_bike_demand_prototype.twbx'
 W,H=letter
 BODY=ParagraphStyle('Body',fontName='Trebuchet',fontSize=11,leading=15,textColor=INK,spaceAfter=8)
 SMALL=ParagraphStyle('Small',parent=BODY,fontSize=9,leading=12)
@@ -33,7 +34,7 @@ def footer(c,page=None):
  if page:c.drawRightString(W-54,30,str(page))
 
 # Standalone cover, supplied as the first document in the submission checklist.
-c=canvas.Canvas(str(OUT/'Cover_Page.pdf'),pagesize=letter);c.setTitle('Mini-Project 2 — Cover page')
+c=canvas.Canvas(str(OUT/'Cover_Page.pdf'),pagesize=letter);c.setTitle('Mini-Project 2 — Cover page');c.setAuthor('Harsh Menaria')
 c.setFillColor(TEAL);c.setFont('TrebuchetBold',12);c.drawString(54,728,'MINI-PROJECT 2 · INTERACTIVE DASHBOARD')
 c.setFillColor(INK);c.setFont('Georgia',34);c.drawString(54,655,'Bike demand across');c.drawString(54,610,'time and weather')
 y=para(c,'Harsh Menaria<br/>NYU · Information Visualization<br/>Final submission · November 25, 2026',54,555,style=BODY)
@@ -42,8 +43,8 @@ y=para(c,'How do time of year, temperature, weather and day type relate to daily
 y=heading(c,'Dataset',y-15)
 y=para(c,'Capital Bikeshare, Washington, DC · 731 daily records<br/>January 2011–December 2012 · UCI Bike Sharing dataset',54,y)
 y=heading(c,'Explore the work',y-15)
-y=para(c,f'<link href="{escape(LIVE)}" color="#155E63"><u>Open the interactive Tableau dashboard</u></link><br/><link href="{REPO}" color="#155E63"><u>Open the GitHub repository and viewing guide</u></link>',54,y)
-para(c,'Three coordinated views: monthly demand, daily temperature/rentals, and weather/day-type means. The packaged TWBX embeds the data; browser viewing requires no Tableau installation.',54,y-10,style=SMALL)
+y=para(c,f'<link href="{escape(LIVE)}" color="#155E63"><u>Open the interactive Tableau dashboard</u></link><br/><link href="{REPO}" color="#155E63"><u>Open the GitHub repository and viewing guide</u></link><br/><link href="{WORKBOOK}" color="#155E63"><u>Download the current packaged Tableau workbook (.twbx)</u></link>',54,y)
+para(c,'Three coordinated views: monthly demand, daily temperature/rentals, and weather/day-type means. The KPI row shows total rentals, average rentals per day and days in view for the current selection. All 731 daily records are embedded in the TWBX; browser viewing requires no Tableau installation.',54,y-10,style=SMALL)
 footer(c);c.showPage();c.save()
 
 # One-page reflection and updated channel justification table.

@@ -4,13 +4,21 @@
 
 How do time of year, temperature, weather and day type relate to daily bike-rental demand, and how do the patterns differ between 2011 and 2012? Three coordinated Tableau views explore **731 daily Capital Bikeshare records from Washington, DC**.
 
+## Brightspace submission
+
+Upload the **[cover page PDF](Submission/Cover_Page.pdf)** and the **[latest packaged Tableau workbook](https://github.com/Hmena01/bike-demand-tableau-prototype/raw/refs/heads/main/menaria_harsh_bike_demand_prototype.twbx)**, then paste **[this GitHub repository link](https://github.com/Hmena01/bike-demand-tableau-prototype)** into the submission comments.
+
+The cover page includes the project title, author, research question, dataset, and links to the live dashboard, repository and workbook download. The TWBX is the current version with **Total rentals, Avg. rentals / day and Days in view**; all 731 daily records are embedded.
+
+The repository also provides the reflection, annotated screenshots, interaction guide, feedback and source data. See the [deliverable status](#final-submission-files), including the usability-report draft. [Copyable submission text](Submission/BRIGHTSPACE_SUBMISSION.txt) is provided for the Brightspace comments box.
+
 ## View the dashboard
 
 ### [Open the interactive Tableau dashboard →](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes)
 
 **No Tableau installation, account or sign-in is needed to view it.** GitHub holds the workbook, documentation and images; Tableau Public runs the interactions. Use a desktop/laptop. The dashboard has a fixed 1440 × 900 layout; use Tableau's **Full Screen** control or browser zoom if an edge is hidden. A separate mobile layout has not been implemented.
 
-[![Final dashboard: three responsive KPIs, year lines, daily circles and triangles, teal weather bars and four shared filters](Screenshots/10_kpi_overview.png)](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes)
+[![Final dashboard: three KPIs that update with the selection, year lines, daily circles and triangles, teal weather bars and four shared filters](Screenshots/10_kpi_overview.png)](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes)
 
 The compact KPI row shows **Total rentals**, **Avg. rentals / day**, and **Days in view** for the current filters and chart selections. With everything reset, it shows **3,292,679**, **4,504**, and **731**. The average is rounded to a whole rental; the count is observed dates, not distinct riders.
 
@@ -57,7 +65,7 @@ Monthly lines connect observed means, including across missing matching months. 
 
 | Deliverable | File / status |
 | --- | --- |
-| Cover page — put first in the course submission | [Cover_Page.pdf](Submission/Cover_Page.pdf) |
+| Cover page — upload to Brightspace | [Cover_Page.pdf](Submission/Cover_Page.pdf), with project details and all viewing/download links |
 | Interactive dashboard / editable source with embedded data | [Download the TWBX](menaria_harsh_bike_demand_prototype.twbx) · [View online](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes) |
 | One-page reflection and updated channel table | [Reflection.pdf](Submission/Reflection.pdf) |
 | Three annotated screenshots | [Annotated_Screenshots.pdf](Submission/Annotated_Screenshots.pdf) · native PNGs [overview](Screenshots/10_kpi_overview.png), [humidity filter](Screenshots/11_kpi_humidity_filter.png), [linked selection](Screenshots/12_kpi_month_selection.png) |
@@ -94,6 +102,8 @@ Maria's additional review identified the missing cover, black bars reusing 2011'
 Earlier evidence remains available: [original linked selection](Screenshots/02_linked_selection.png), [revised prototype linked selection](Screenshots/04_revised_linked_selection.png) and [prototype grayscale check](Screenshots/05_grayscale_check.png). These historical images show their respective versions. The [current grayscale check](Screenshots/13_kpi_grayscale_check.png) is derived from the latest native overview; the year lightness and daily shapes remain distinguishable.
 
 The KPI addition uses header whitespace: the dashboard remains **1440 × 900**, with the same chart sizes and positions. Pre-KPI final screenshots [overview](Screenshots/06_final_overview.png), [humidity](Screenshots/07_final_humidity_filter.png) and [monthly selection](Screenshots/08_final_linked_selection.png) remain preserved.
+
+This later addition was requested by the project author, separately from Maria's feedback. The three KPI definitions and their checked values are documented in the [data and design notes](docs/DATA_AND_DESIGN.md#kpi-definitions).
 
 ## Open locally and inspect the source
 
