@@ -47,6 +47,18 @@ The monthly display uses `MAKEDATE(2000, [MonthNumber], 1)` only to align the ca
 
 The revised typography uses **Georgia 28 pt regular** headline and **Trebuchet MS** supporting text, charts and tooltips. This replaces the proposal's Arial-only styling. The scatterplot now uses hollow circles and triangles for the two years, with restrained sizes and no point labels. The weather chart retains the original six paired horizontal mean bars; it is not split into year segments. Sample sizes stay in hover to keep the dashboard uncluttered.
 
+## KPI definitions
+
+The author selected **Total rentals, Avg. rentals / day, and Days in view**. Three native Tableau text worksheets summarize the same filtered daily records as the charts:
+
+| KPI | Calculation | Meaning |
+| --- | --- | --- |
+| Total rentals | `SUM([DailyRentals])` | Rental trips during the current selection; not unique riders |
+| Avg. rentals / day | `AVG([DailyRentals])` | Arithmetic mean across selected observed days, displayed rounded to a whole rental |
+| Days in view | `COUNTD([Date])` | Number of distinct observed dates; helps interpret small samples |
+
+All four shared filters and all three chart selection actions update these summaries. Clearing a source selection restores them within the remaining filters. KPI tooltips state the definition and observed-day count. The compact row uses the existing header whitespace and preserves every chart’s dimensions and positions.
+
 ## Reading filtered and sparse selections
 
 The calendar stays fixed under filtering. Points represent observed monthly means; lines connect those points within each year, including across months without matching days. A connecting segment does not represent an observed value for an intervening month. No missing month is assigned zero or imputed. For example, rain/snow weekends contain only five days across both years; their points occupy the correct February, April, July and October positions.
@@ -73,7 +85,7 @@ The scatterplot includes a native linear fit for each visible year, without conf
 
 2011 uses tungsten `#333333`; 2012 uses orange/vermilion `#D55E00`, from the [Okabe–Ito Color Universal Design palette](https://jfly.uni-koeln.de/color/). The scatterplot also uses circles and triangles. The weather bars are uniformly teal; this separates their meaning from the black 2011 series. Their color does not encode year.
 
-A [final grayscale conversion](../Screenshots/09_final_grayscale_check.png) of the final native overview was visually inspected; the [prototype check](../Screenshots/05_grayscale_check.png) is preserved. The year lines retain different lightness and the daily points retain their shapes. The specified solid year colors have contrast ratios of 12.63:1 and 3.87:1 against white; symbol transparency and antialiasing affect displayed contrast. This check does not establish complete accessibility or replace testing with viewers.
+A [final grayscale conversion](../Screenshots/13_kpi_grayscale_check.png) of the final native overview was visually inspected; the [prototype check](../Screenshots/05_grayscale_check.png) is preserved. The year lines retain different lightness and the daily points retain their shapes. The specified solid year colors have contrast ratios of 12.63:1 and 3.87:1 against white; symbol transparency and antialiasing affect displayed contrast. This check does not establish complete accessibility or replace testing with viewers.
 
 ## Verification and feedback response
 
@@ -114,4 +126,8 @@ These are planned analytical improvements. No additional source or rider-type da
 
 The final published workbook was downloaded independently and checked for the restored teal, fixed humidity size bounds, cleared action filters and an unchanged Hyper extract hash. The fixed-size bounds use Tableau’s [native size range controls](https://help.tableau.com/current/pro/desktop/en-us/viewparts_marks_markproperties.htm).
 
-Final anonymous browser checks passed for the default overview, the More humid filter, monthly selection, exact-date daily selection, weather selection, selection clearing and tooltips. Checked values include clear/working mean 5,024 (307 days), More humid clear/working mean 5,116, September 2012 clear/working mean 7,617, the selected September 15 daily/monthly count 8,714, and rain/weekend mean 1,815 (5 days). These checks confirm the shipped interactions; they are not human usability observations.
+Pre-KPI final anonymous browser checks passed for the default overview, the More humid filter, monthly selection, exact-date daily selection, weather selection, selection clearing and tooltips. Checked values include clear/working mean 5,024 (307 days), More humid clear/working mean 5,116, September 2012 clear/working mean 7,617, the selected September 15 daily/monthly count 8,714, and rain/weekend mean 1,815 (5 days). These checks confirm the shipped interactions; they are not human usability observations.
+
+Independent KPI reference values: All = 3,292,679 total / 4,504 daily mean / 731 days; 2012 = 2,049,576 / 5,600 / 366; More humid = 932,656 / 4,037 / 231; September 2012 = 218,573 / 7,286 / 30; September 15, 2012 = 8,714 / 8,714 / 1; rain/weekend = 9,077 / 1,815 / 5. Displayed means are rounded. Native checks covered the overview, humidity filter and selected month.
+
+The published KPI revision passed anonymous browser checks against the source CSV for all six reference states above, including selection clearing. Each KPI’s tooltip and visible value were checked. An independent download confirms all three native KPI sheets, cleared starting selections and identical embedded Hyper bytes.

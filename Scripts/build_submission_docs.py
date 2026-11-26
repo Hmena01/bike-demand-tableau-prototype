@@ -52,7 +52,7 @@ c.setFillColor(INK);c.setFont('Georgia',23);c.drawString(54,741,'Design reflecti
 y=724
 sections=[
 ('Expressiveness and effectiveness','Daily rentals use position in the monthly and daily views, and bar length from zero in the weather view. These channels support quantitative comparison, consistent with Cleveland and McGill’s graphical-perception findings. Year is a nominal comparison: black/orange colors and circle/triangle daily marks distinguish categories rather than implying a numeric amount.'),
-('Gestalt grouping and hierarchy','The monthly overview sits above the two detailed comparisons. Proximity groups each title, chart and supporting text, while aligned edges and consistent typography create similarity across views. The four shared filters form one control group. Whitespace and a restrained divider separate the overview from the details without adding heavy boxes.'),
+('Gestalt grouping and hierarchy','The monthly overview sits above the two detailed comparisons. A compact KPI row uses existing header whitespace to summarize total rentals, average rentals per day and observed dates for the current selection. Proximity groups each title, chart and supporting text, while aligned edges and consistent typography create similarity across views. The four shared filters form one control group. Whitespace and a restrained divider separate the overview from the details without adding heavy boxes.'),
 ('Size perception and the humidity tradeoff','Stevens’ Law reminds me that perceived magnitude does not grow linearly with physical mark size. Humidity therefore uses three ordered display bands rather than claiming exact proportional area. Maria’s feedback showed that the bands were hard to judge in a dense cloud. The added Humidity band filter lets a reader isolate one band across all views; exact percentages remain in tooltips.'),
 ('Color meaning, interaction and data-ink ratio','The weather bars now use my original teal, reserving black for the 2011 series. This corrects the semantic collision identified in feedback. Minimal gridlines and selective hover details reduce non-data ink. Selecting a month/year, a daily observation or a weather bar cross-filters the other views. The tradeoff is that sparse selections need explicit observation counts; connecting monthly means does not invent missing values or establish causal weather effects.')]
 for title,text in sections:
@@ -102,14 +102,14 @@ FIG_W, FIG_H = 792, 612
 c=canvas.Canvas(str(OUT/'Annotated_Screenshots.pdf'),pagesize=(FIG_W,FIG_H))
 c.setTitle('Mini-Project 2 — Annotated interaction screenshots')
 figures=[
- ('06_final_overview.png','1. Final overview',
-  'Teal weather bars avoid reusing the 2011 color. Black/orange year lines and circle/triangle daily marks retain two cues for year. Four shared filters sit together in the upper right.',
-  [(1000,86,180,54),(1148,535,260,260)]),
- ('07_final_humidity_filter.png','2. Isolate a humidity band',
-  'Humidity band = More humid (>70%). All three views now summarize the same 231 matching days. Fixed size bounds preserve the larger symbols instead of shrinking them after filtering.',
+ ('10_kpi_overview.png','1. Final overview with KPIs',
+  'Teal weather bars avoid reusing the 2011 color. Black/orange year lines and circle/triangle daily marks retain two cues for year. The KPI row summarizes the current selection; four shared filters sit together in the upper right.',
+  [(32,103,926,54),(1000,86,180,54),(1148,535,260,260)]),
+ ('11_kpi_humidity_filter.png','2. Isolate a humidity band',
+  'Humidity band = More humid (>70%). All three views and the KPI row summarize the same 231 days: 932,656 rentals and a daily mean of 4,037. Fixed size bounds preserve the larger symbols instead of shrinking them after filtering.',
   [(1000,86,180,54),(132,515,650,242)]),
- ('08_final_linked_selection.png','3. Select a month and year',
-  'September 2012 is selected in the monthly view. The daily scatterplot contains its 30 days, and weather bars recompute means for those dates. Clear the selection in the monthly chart to restore the overview.',
+ ('12_kpi_month_selection.png','3. Select a month and year',
+  'September 2012 is selected in the monthly view. The daily and weather views use its 30 days. The KPIs show 218,573 rentals and a daily mean of 7,286. Clear the selection in the monthly chart to restore the overview.',
   [(1014,278,20,20),(132,515,650,242),(1148,535,260,260)])]
 for index,(filename,title,caption,boxes) in enumerate(figures,1):
  c.setFillColor(INK);c.setFont('Georgia',23);c.drawString(36,578,title)

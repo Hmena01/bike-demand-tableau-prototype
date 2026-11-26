@@ -10,13 +10,15 @@ How do time of year, temperature, weather and day type relate to daily bike-rent
 
 **No Tableau installation, account or sign-in is needed to view it.** GitHub holds the workbook, documentation and images; Tableau Public runs the interactions. Use a desktop/laptop. The dashboard has a fixed 1440 × 900 layout; use Tableau's **Full Screen** control or browser zoom if an edge is hidden. A separate mobile layout has not been implemented.
 
-[![Final dashboard: two year lines, daily circles and triangles, teal weather bars and four shared filters](Screenshots/06_final_overview.png)](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes)
+[![Final dashboard: three responsive KPIs, year lines, daily circles and triangles, teal weather bars and four shared filters](Screenshots/10_kpi_overview.png)](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes)
+
+The compact KPI row shows **Total rentals**, **Avg. rentals / day**, and **Days in view** for the current filters and chart selections. With everything reset, it shows **3,292,679**, **4,504**, and **731**. The average is rounded to a whole rental; the count is observed dates, not distinct riders.
 
 ## Try it in one minute
 
 1. Start with **Year, Day type, Humidity band and Weather group** set to **(All)**.
-2. Choose **More humid (>70%)** under Humidity band. All three views update to those **231 days**. Symbol sizes stay fixed when filtering; exact humidity remains in hover details.
-3. Return Humidity band to **(All)**. Click the **September 2012** point on the orange monthly line. The daily and weather views update to its **30 days**.
+2. Choose **More humid (>70%)** under Humidity band. All three views and the KPI row update to those **231 days**. The KPIs show **932,656 total rentals** and **4,037 average rentals per day**. Symbol sizes stay fixed when filtering; exact humidity remains in hover details.
+3. Return Humidity band to **(All)**. Click the **September 2012** point on the orange monthly line. The daily and weather views update to its **30 days**; the KPIs show **218,573 total rentals**, **7,286 average rentals per day**, and **30 days**.
 4. Click blank plot space in the **monthly chart** to clear that selection.
 5. Click the **Weekend / holiday** bar under **Light rain / snow**. The monthly and daily charts show the **five matching days**. Hover the bar: **1,815 mean rentals per day**, **5 observed days**.
 6. Click blank plot space in the **weather chart** to clear it. Hover daily symbols to inspect individual dates and conditions.
@@ -32,6 +34,7 @@ How do time of year, temperature, weather and day type relate to daily bike-rent
 | Click a **daily symbol** | Filters monthly and weather views to that date |
 | Click a **weather/day-type bar** | Filters monthly and daily views to that group |
 | Click blank plot space in the **source chart** | Clears that chart's selection; other active selections and dropdown filters still apply |
+| **KPI row** | All four dropdowns and selections in any chart recompute the total, daily mean and observed-day count; hover a KPI for its definition |
 | Hover a point or bar | Shows exact values; aggregated marks include observed-day counts |
 
 **Reset:** clear selections in every chart you used as a source, then return all four dropdowns to **(All)**. Tableau Public's **Revert** toolbar button also restores the published starting state. Filters combine, so conflicting selections can produce no matching records. The year key explains color/shape; use the Year dropdown to filter.
@@ -57,7 +60,7 @@ Monthly lines connect observed means, including across missing matching months. 
 | Cover page — put first in the course submission | [Cover_Page.pdf](Submission/Cover_Page.pdf) |
 | Interactive dashboard / editable source with embedded data | [Download the TWBX](menaria_harsh_bike_demand_prototype.twbx) · [View online](https://public.tableau.com/views/BikeDemandacrossTimeandWeather-Prototype/BikedemandPrototype?:showVizHome=no&:toolbar=yes) |
 | One-page reflection and updated channel table | [Reflection.pdf](Submission/Reflection.pdf) |
-| Three annotated screenshots | [Annotated_Screenshots.pdf](Submission/Annotated_Screenshots.pdf) · native PNGs [overview](Screenshots/06_final_overview.png), [humidity filter](Screenshots/07_final_humidity_filter.png), [linked selection](Screenshots/08_final_linked_selection.png) |
+| Three annotated screenshots | [Annotated_Screenshots.pdf](Submission/Annotated_Screenshots.pdf) · native PNGs [overview](Screenshots/10_kpi_overview.png), [humidity filter](Screenshots/11_kpi_humidity_filter.png), [linked selection](Screenshots/12_kpi_month_selection.png) |
 | Feedback received and changes made | [feedback_log.txt](feedback_log.txt) |
 | Early feedback I gave classmates | [Yinkui Yu, Will Miller and class participation](docs/CLASS_FEEDBACK_GIVEN.md) |
 | Required 2–3 page usability report | Class peer-review participation and the feedback I gave are documented. The [draft report](Drafts/Usability_Test_Report_DRAFT.pdf) includes those comments; observations of two classmates completing three tasks on my dashboard still need to be documented. |
@@ -84,11 +87,13 @@ Maria's additional review identified the missing cover, black bars reusing 2011'
 | --- | --- |
 | [![Before: black bars and three filters](Screenshots/03_revised_overview.png)](Screenshots/03_revised_overview.png) | [![After: teal bars and a shared humidity filter](Screenshots/06_final_overview.png)](Screenshots/06_final_overview.png) |
 
-![Final shared humidity filter isolates More humid days across the three views](Screenshots/07_final_humidity_filter.png)
+![Shared humidity filter updates all three views and the KPI row](Screenshots/11_kpi_humidity_filter.png)
 
-![Selecting September 2012 updates the daily points and weather/day-type means](Screenshots/08_final_linked_selection.png)
+![Selecting September 2012 updates the daily points, weather means and KPI row](Screenshots/12_kpi_month_selection.png)
 
-Earlier evidence remains available: [original linked selection](Screenshots/02_linked_selection.png), [revised prototype linked selection](Screenshots/04_revised_linked_selection.png) and [prototype grayscale check](Screenshots/05_grayscale_check.png). These historical images show their respective versions. The [final grayscale check](Screenshots/09_final_grayscale_check.png) is derived from the latest native overview; the year lightness and daily shapes remain distinguishable.
+Earlier evidence remains available: [original linked selection](Screenshots/02_linked_selection.png), [revised prototype linked selection](Screenshots/04_revised_linked_selection.png) and [prototype grayscale check](Screenshots/05_grayscale_check.png). These historical images show their respective versions. The [current grayscale check](Screenshots/13_kpi_grayscale_check.png) is derived from the latest native overview; the year lightness and daily shapes remain distinguishable.
+
+The KPI addition uses header whitespace: the dashboard remains **1440 × 900**, with the same chart sizes and positions. Pre-KPI final screenshots [overview](Screenshots/06_final_overview.png), [humidity](Screenshots/07_final_humidity_filter.png) and [monthly selection](Screenshots/08_final_linked_selection.png) remain preserved.
 
 ## Open locally and inspect the source
 
